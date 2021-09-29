@@ -83,8 +83,8 @@ async function CSVsToFasttextFormat(csvsDir: string, rowsCountPerCSV: number = 5
 
 async function main() {
   let cb = new CorpusBuilder();
-  // await cb.crawlThroughTopicsSitesAndDownloadData();
-  await cb.quickTest();
+  await cb.crawlThroughTopicsSitesAndDownloadData();
+  // await cb.quickTest();
 }
 
 main();

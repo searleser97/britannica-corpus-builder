@@ -83,7 +83,9 @@ export default class CorpusBuilder {
       .split("\n")
       .filter(
         (topic) =>
-          !this.visitedSites.has(Path.join(this.baseUrl, "browse", topic))
+          !this.visitedSites.has(
+            Path.join(this.baseUrl, "browse", topic) && topic
+          ) && topic !== ""
       );
 
     console.log("corpus recopilation started");
