@@ -77,16 +77,19 @@ export default class CorpusBuilder {
     for (const site of visitedSitesInPreviousRuns) {
       this.visitedSites.add(site);
     }
-    const topicsToVisit = fs
+    const allTopics = fs
       .readFileSync("topics.txt")
       .toString()
       .split("\n")
-      .filter(
-        (topic) =>
-          !this.visitedSites.has(
-            Path.join(this.baseUrl, "browse", topic) && topic
-          ) && topic !== ""
-      );
+      .filter((topic) => topic !== "");
+
+    const topicsToVisit = allTopics.filter(
+      (topic) =>
+        !this.visitedSites.has(Path.join(this.baseUrl, "browse", topic))
+    );
+
+    console.log("topics already processed:", allTopics.length - topicsToVisit.length);
+    console.log("topics to process:", topicsToVisit.length);
 
     console.log("corpus recopilation started");
 
@@ -107,9 +110,6 @@ export default class CorpusBuilder {
       let topicsCnt = 0;
       let subTopicsCnt = 0;
       for (const topic of topicsToVisit) {
-        if (topic === "") {
-          continue;
-        }
         const topicURL = Path.join(this.baseUrl, "browse", topic);
         let subTopicsURLs: string[] = [];
         await page.goto(topicURL);
@@ -122,11 +122,6 @@ export default class CorpusBuilder {
             subTopicsURLs.push(...(await this.getSubTopicsLinks(page)));
           }
         } else {
-          // apparently we never enter to this condition because
-          // there are always pagination links
-          // either of the form: "See articles" or as "tabs"
-          // so, just leaving this here in case.
-          await page.goto(Path.join(topicURL, "1"));
           subTopicsURLs.push(...(await this.getSubTopicsLinks(page)));
         }
         subTopicsURLs = subTopicsURLs.filter(
@@ -150,6 +145,7 @@ export default class CorpusBuilder {
             topic,
             "->",
             Path.basename(subTopicURL),
+            "|",
             "number of pages for this topic",
             paginationLinks.length
           );
@@ -232,7 +228,6 @@ export default class CorpusBuilder {
   }
 
   async getParentCategory(page: Page): Promise<string> {
-    console.log(page.url());
     const spanElement = await page.$$(
       "nav.breadcrumb > span.breadcrumb-item:nth-last-of-type(2) > a"
     );
