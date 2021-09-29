@@ -7,12 +7,13 @@ import {
   Page,
 } from "playwright-chromium";
 import { exit } from "process";
-import { replaceNonAlphaNumSymbolsWith } from "./Util";
+import { replaceNonAlphaNumSymbolsWith, sleep } from "./Util";
 
 export default class CorpusBuilder {
   readonly sessionPath = "corpus_builder_session.json";
 
   readonly visitedSites = new Set<string>();
+  readonly alreadyVisitedSitesFilePath = "alreadyVisitedSites.txt";
 
   readonly baseUrl = "https://www.britannica.com/";
   readonly blockedResourcesOnSubmit: Set<string> = new Set([
@@ -68,9 +69,9 @@ export default class CorpusBuilder {
     );
   }
 
-  async crawlThroughCategoriesSitesAndDownloadData() {
+  async crawlThroughTopicsSitesAndDownloadData() {
     const visitedSitesInPreviousRuns = fs
-      .readFileSync("alreadyVisitedSites.txt")
+      .readFileSync(this.alreadyVisitedSitesFilePath)
       .toString()
       .split("\n");
     for (const site of visitedSitesInPreviousRuns) {
@@ -79,8 +80,14 @@ export default class CorpusBuilder {
     const topicsToVisit = fs
       .readFileSync("topics.txt")
       .toString()
-      .split("\n");
+      .split("\n")
+      .filter(
+        (topic) =>
+          !this.visitedSites.has(Path.join(this.baseUrl, "browse", topic))
+      );
+
     console.log("corpus recopilation started");
+
     let browser = await chromium.launch({ headless: true });
     const context = await this.restoreSession(browser);
     const pages = context.pages();
@@ -95,32 +102,68 @@ export default class CorpusBuilder {
     });
 
     try {
+      let topicsCnt = 0;
+      let subTopicsCnt = 0;
       for (const topic of topicsToVisit) {
         if (topic === "") {
           continue;
         }
-        const subTopicsLinks: string[] = [];
         const topicURL = Path.join(this.baseUrl, "browse", topic);
+        let subTopicsURLs: string[] = [];
         await page.goto(topicURL);
-        const paginationLinks = await this.getPaginationLinksFromCurrentPage(page);
-        console.log("paginationLinks", paginationLinks);
+        const paginationLinks = await this.getPaginationLinksFromCurrentPage(
+          page
+        );
         if (paginationLinks.length > 0) {
           for (const pagLink of paginationLinks) {
             await page.goto(pagLink);
-            subTopicsLinks.push(...(await this.getSubTopicsLinks(page)));
+            subTopicsURLs.push(...(await this.getSubTopicsLinks(page)));
           }
         } else {
-            subTopicsLinks.push(...(await this.getSubTopicsLinks(page)));
+          subTopicsURLs.push(...(await this.getSubTopicsLinks(page)));
         }
-        console.log(subTopicsLinks.length);
+        subTopicsURLs = subTopicsURLs.filter(
+          (subTopicURL) => !this.visitedSites.has(subTopicURL)
+        );
+        for (const subTopicURL of subTopicsURLs) {
+          await page.goto(subTopicURL);
+          await this.downloadPlainHTML(
+            page,
+            Path.join("corpus_raw", topic),
+            ".topic-paragraph"
+          );
+          this.visitedSites.add(subTopicURL);
+          fs.appendFileSync(
+            this.alreadyVisitedSitesFilePath,
+            `${subTopicURL}\n`
+          );
+          subTopicsCnt++;
+          console.log(
+            topic,
+            "->",
+            Path.basename(subTopicURL),
+            "number of pages for this topic",
+            paginationLinks.length
+          );
+          console.log(
+            "number of processed topics:",
+            topicsCnt,
+            "/",
+            topicsToVisit.length
+          );
+          console.log(
+            "number of processed subTopics:",
+            subTopicsCnt,
+            "/",
+            subTopicsURLs.length
+          );
+          await sleep(1000);
+        }
+        this.visitedSites.add(topicURL);
+        fs.appendFileSync(this.alreadyVisitedSitesFilePath, `${topicURL}\n`);
+        topicsCnt++;
       }
-      // await this.downloadPlainHTML(
-        // "https://www.britannica.com/biography/Kobe-Bryant",
-        // "https://www.britannica.com/topic/Golden-State-Warriors",
-        // context,
-        // "",
-        // ".topic-paragraph"
-      // );
+      console.log("Recopilation Finished");
       await this.saveSession(context);
       await browser.close();
     } catch (e) {
@@ -134,6 +177,8 @@ export default class CorpusBuilder {
     downloadDir: string,
     cssSelector: string
   ) {
+    if (!fs.existsSync(downloadDir))
+      fs.mkdirSync(downloadDir, { recursive: true });
 
     try {
       const htmlElements = await page.$$(cssSelector);
@@ -145,7 +190,7 @@ export default class CorpusBuilder {
         `${Path.join(
           downloadDir,
           replaceNonAlphaNumSymbolsWith(Path.basename(page.url()), "_")
-        )}.html`,
+        )}.txt`,
         plainHTML
       );
       this.visitedSites.add(page.url());
@@ -158,17 +203,23 @@ export default class CorpusBuilder {
   async getPaginationLinksFromCurrentPage(page: Page): Promise<string[]> {
     const categoryName = Path.basename(page.url());
     const regex = new RegExp(`\\/browse\\/${categoryName}\\/[1-9]+`, "gui");
-    return Array.from(new Set((await page.content())
-      .match(regex)
-      .map((relativeUrl) => Path.join(this.baseUrl, relativeUrl))));
+    return Array.from(
+      new Set(
+        (await page.content())
+          .match(regex)
+          .map((relativeUrl) => Path.join(this.baseUrl, relativeUrl))
+      )
+    );
   }
 
   async getSubTopicsLinks(page: Page): Promise<string[]> {
     const subTopicsLinks: string[] = [];
     const linkElements = await page.$$("div .card-body > a:first-child");
     for (const a_tag of linkElements) {
-      subTopicsLinks.push((await a_tag.getAttribute("href")));
+      subTopicsLinks.push(await a_tag.getAttribute("href"));
     }
-    return subTopicsLinks.map(relativeURL => Path.join(this.baseUrl, relativeURL));
+    return subTopicsLinks.map((relativeURL) =>
+      Path.join(this.baseUrl, relativeURL)
+    );
   }
 }

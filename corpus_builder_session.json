@@ -31,16 +31,6 @@
   },
   {
     "sameSite": "None",
-    "name": "sessionId",
-    "value": "F48C1C63-541F-4FE6-98C7-8463F32ED878",
-    "domain": "www.britannica.com",
-    "path": "/browse",
-    "expires": 1632894337,
-    "httpOnly": false,
-    "secure": false
-  },
-  {
-    "sameSite": "None",
     "name": "userId",
     "value": "oJbTJV94p",
     "domain": ".mrtnsvr.com",
@@ -1141,36 +1131,6 @@
   },
   {
     "sameSite": "None",
-    "name": "vis15",
-    "value": "9328^1",
-    "domain": ".rubiconproject.com",
-    "path": "/",
-    "expires": 1632920399.942487,
-    "httpOnly": false,
-    "secure": true
-  },
-  {
-    "sameSite": "None",
-    "name": "vis57",
-    "value": "9328^1",
-    "domain": ".rubiconproject.com",
-    "path": "/",
-    "expires": 1632920399.940924,
-    "httpOnly": false,
-    "secure": true
-  },
-  {
-    "sameSite": "None",
-    "name": "vis2",
-    "value": "9328^1",
-    "domain": ".rubiconproject.com",
-    "path": "/",
-    "expires": 1632920399.941762,
-    "httpOnly": false,
-    "secure": true
-  },
-  {
-    "sameSite": "None",
     "name": "rlas3",
     "value": "XcwIi1J79ckY1D4gs0HO/QMD2JE6zBfMIirhmN319p0=",
     "domain": ".rlcdn.com",
@@ -1391,16 +1351,6 @@
   },
   {
     "sameSite": "None",
-    "name": "JSESSIONID",
-    "value": "D86BA7CE0E214C62820AD47C307F1F2C",
-    "domain": "www.britannica.com",
-    "path": "/",
-    "expires": -1,
-    "httpOnly": true,
-    "secure": false
-  },
-  {
-    "sameSite": "None",
     "name": "UID",
     "value": "eaa4edcd86317757ba7f483adbfcd90",
     "domain": "ads.stickyadstv.com",
@@ -1466,16 +1416,6 @@
     "domain": ".justpremium.com",
     "path": "/",
     "expires": 1635572138.935454,
-    "httpOnly": false,
-    "secure": true
-  },
-  {
-    "sameSite": "None",
-    "name": "jpxumatched",
-    "value": "ox",
-    "domain": ".justpremium.com",
-    "path": "/",
-    "expires": 1632904538.935584,
     "httpOnly": false,
     "secure": true
   },
@@ -1646,16 +1586,6 @@
     "domain": ".eyeota.net",
     "path": "/",
     "expires": 1664429741.038007,
-    "httpOnly": false,
-    "secure": true
-  },
-  {
-    "sameSite": "None",
-    "name": "SERVERID",
-    "value": "21310~DM",
-    "domain": ".eyeota.net",
-    "path": "/",
-    "expires": 1632894341.58988,
     "httpOnly": false,
     "secure": true
   },
@@ -1878,16 +1808,6 @@
     "expires": 1664429756.345679,
     "httpOnly": false,
     "secure": true
-  },
-  {
-    "sameSite": "None",
-    "name": "_vwo_sn",
-    "value": "8946%3A3",
-    "domain": ".britannica.com",
-    "path": "/",
-    "expires": 1632895554,
-    "httpOnly": false,
-    "secure": false
   },
   {
     "sameSite": "None",
@@ -2232,7 +2152,7 @@
   {
     "sameSite": "None",
     "name": "subreturn",
-    "value": "https%3A%2F%2Fwww.britannica.com%2Fbrowse%2FBasketball%2F2",
+    "value": "https%3A%2F%2Fwww.britannica.com%2Fbiography%2FBabe-Didrikson-Zaharias",
     "domain": ".britannica.com",
     "path": "/",
     "expires": -1,
@@ -2242,7 +2162,7 @@
   {
     "sameSite": "None",
     "name": "webstats",
-    "value": "\"referer_page=https%3A%2F%2Fwww.britannica.com%2Fbrowse%2FBasketball%2F2\"",
+    "value": "\"referer_page=https%3A%2F%2Fwww.britannica.com%2Fbiography%2FBabe-Didrikson-Zaharias\"",
     "domain": ".britannica.com",
     "path": "/",
     "expires": -1,
@@ -2252,11 +2172,21 @@
   {
     "sameSite": "None",
     "name": "__mendel",
-    "value": "%7B%27pagesViewed%27%3A24%2C%27surveyShown%27%3Afalse%2C%27topicInitialSequence%27%3A1%7D",
+    "value": "%7B%27pagesViewed%27%3A165%2C%27surveyShown%27%3Afalse%2C%27topicInitialSequence%27%3A1%7D",
     "domain": ".britannica.com",
     "path": "/",
     "expires": -1,
     "httpOnly": false,
+    "secure": false
+  },
+  {
+    "sameSite": "None",
+    "name": "JSESSIONID",
+    "value": "5BB4497965FE3799C819E8F979F667E2",
+    "domain": "www.britannica.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
     "secure": false
   }
 ]

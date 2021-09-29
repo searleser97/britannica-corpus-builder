@@ -9,3 +9,7 @@ export function replaceNonAlphaNumSymbolsWith(text: string, symbol: string): str
   const alphaNumMatches = text.match(specialSymbolsRegex);
   return alphaNumMatches?.join(symbol) ?? "";
 }
+
+export function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
