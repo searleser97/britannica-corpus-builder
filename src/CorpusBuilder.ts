@@ -93,7 +93,7 @@ export default class CorpusBuilder {
 
     console.log("corpus recopilation started");
 
-    let browser = await chromium.launch({ headless: true });
+    let browser = await chromium.launch({ headless: true, timeout: 0 });
     const context = await this.restoreSession(browser);
     const pages = context.pages();
     let page = pages.length > 0 ? pages[0] : await context.newPage();
