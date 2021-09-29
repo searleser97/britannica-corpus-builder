@@ -108,8 +108,8 @@ export default class CorpusBuilder {
 
     try {
       let topicsCnt = 0;
-      let subTopicsCnt = 0;
       for (const topic of topicsToVisit) {
+        let subTopicsCnt = 0;
         const topicURL = Path.join(this.baseUrl, "browse", topic);
         let subTopicsURLs: string[] = [];
         await page.goto(topicURL);
