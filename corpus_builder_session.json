@@ -2152,7 +2152,7 @@
   {
     "sameSite": "None",
     "name": "subreturn",
-    "value": "https%3A%2F%2Fwww.britannica.com%2Fbiography%2FBabe-Didrikson-Zaharias",
+    "value": "https%3A%2F%2Fwww.britannica.com%2Fplace%2FZimbabwe",
     "domain": ".britannica.com",
     "path": "/",
     "expires": -1,
@@ -2162,7 +2162,7 @@
   {
     "sameSite": "None",
     "name": "webstats",
-    "value": "\"referer_page=https%3A%2F%2Fwww.britannica.com%2Fbiography%2FBabe-Didrikson-Zaharias\"",
+    "value": "\"referer_page=https%3A%2F%2Fwww.britannica.com%2Fplace%2FZimbabwe\"",
     "domain": ".britannica.com",
     "path": "/",
     "expires": -1,
@@ -2172,7 +2172,7 @@
   {
     "sameSite": "None",
     "name": "__mendel",
-    "value": "%7B%27pagesViewed%27%3A165%2C%27surveyShown%27%3Afalse%2C%27topicInitialSequence%27%3A1%7D",
+    "value": "%7B%27pagesViewed%27%3A371%2C%27surveyShown%27%3Afalse%2C%27topicInitialSequence%27%3A1%7D",
     "domain": ".britannica.com",
     "path": "/",
     "expires": -1,
@@ -2182,7 +2182,7 @@
   {
     "sameSite": "None",
     "name": "JSESSIONID",
-    "value": "5BB4497965FE3799C819E8F979F667E2",
+    "value": "C1BBF8B4BF852F9226D5E34477819B25",
     "domain": "www.britannica.com",
     "path": "/",
     "expires": -1,
