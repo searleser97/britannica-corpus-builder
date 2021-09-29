@@ -7,7 +7,7 @@ import {
   Page,
 } from "playwright-chromium";
 import { exit } from "process";
-import { replaceNonAlphaNumSymbolsWith, sleep } from "./Util";
+import { normalizeString, replaceNonAlphaNumSymbolsWith, sleep } from "./Util";
 
 export default class CorpusBuilder {
   readonly sessionPath = "corpus_builder_session.json";
@@ -120,6 +120,11 @@ export default class CorpusBuilder {
             subTopicsURLs.push(...(await this.getSubTopicsLinks(page)));
           }
         } else {
+          // apparently we never enter to this condition because
+          // there are always pagination links
+          // either of the form: "See articles" or as "tabs"
+          // so, just leaving this here in case.
+          await page.goto(Path.join(topicURL, "1"));
           subTopicsURLs.push(...(await this.getSubTopicsLinks(page)));
         }
         subTopicsURLs = subTopicsURLs.filter(
@@ -127,9 +132,10 @@ export default class CorpusBuilder {
         );
         for (const subTopicURL of subTopicsURLs) {
           await page.goto(subTopicURL);
+          const parentCategory = await this.getParentCategory(page);
           await this.downloadPlainHTML(
             page,
-            Path.join("corpus_raw", topic),
+            Path.join("corpus_raw", parentCategory, topic),
             ".topic-paragraph"
           );
           this.visitedSites.add(subTopicURL);
@@ -214,12 +220,41 @@ export default class CorpusBuilder {
 
   async getSubTopicsLinks(page: Page): Promise<string[]> {
     const subTopicsLinks: string[] = [];
-    const linkElements = await page.$$("div .card-body > a:first-child");
+    const linkElements = await page.$$("div.card-body > a:first-child");
     for (const a_tag of linkElements) {
       subTopicsLinks.push(await a_tag.getAttribute("href"));
     }
     return subTopicsLinks.map((relativeURL) =>
       Path.join(this.baseUrl, relativeURL)
     );
+  }
+
+  async getParentCategory(page: Page): Promise<string> {
+    console.log(page.url());
+    const spanElement = await page.$$(
+      "nav.breadcrumb > span.breadcrumb-item:nth-last-of-type(2) > a"
+    );
+    return normalizeString(await spanElement[0].textContent());
+  }
+
+  async quickTest() {
+    let browser = await chromium.launch({ headless: false });
+    const context = await this.restoreSession(browser);
+    const pages = context.pages();
+    let page = pages.length > 0 ? pages[0] : await context.newPage();
+
+    await page.route("**/*", (route) => {
+      if (this.blockedResourcesOnSubmit.has(route.request().resourceType())) {
+        route.abort();
+      } else {
+        route.continue();
+      }
+    });
+    await page.goto("https://www.britannica.com/browse/Basketball");
+    console.log(await this.getParentCategory(page));
+    // console.log(await this.getSubTopicsLinks(page));
+    // console.log(await this.getPaginationLinksFromCurrentPage(page));
+    // await this.saveSession(context);
+    // await browser.close();
   }
 }

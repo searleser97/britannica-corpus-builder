@@ -10,6 +10,10 @@ export function replaceNonAlphaNumSymbolsWith(text: string, symbol: string): str
   return alphaNumMatches?.join(symbol) ?? "";
 }
 
+export function normalizeString(str: string): string {
+  return replaceNonAlphaNumSymbolsWith(str, "_").replaceAll(/_+/gui, "_");
+}
+
 export function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
