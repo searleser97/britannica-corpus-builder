@@ -1,7 +1,8 @@
-import { listOfFilesInDir, normalizeString } from "./Util";
+import { listOfFilesInDir } from "./Util";
 import {
   extractSents,
   getFirstParagraph,
+  normalizeString,
   preprocessText,
 } from "./Util_NLP";
 import * as Path from "path";
@@ -62,9 +63,7 @@ export async function buildFastTextFormattedFilePreprocessed(
 
   let processedFile = "";
   for (const line of lines) {
-    const labels = line.substring(0, line.indexOf(" "));
-    const sent = line.substring(line.indexOf(" ") + 1);
-    processedFile += labels + " " + preprocessText(sent) + "\n";
+    processedFile += preprocessText(line, /(__label__[a-z_0-9]+)+\s/gui) + "\n";
   }
   fs.writeFileSync(labeled_sents_preprocessed_path, processedFile);
 }

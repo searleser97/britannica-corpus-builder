@@ -1,7 +1,6 @@
 import winkNLP from "wink-nlp";
 import model from "wink-eng-lite-web-model";
 import * as fs from "fs";
-import { replaceNonAlphaNumSymbolsWith } from "./Util";
 import contractions from "expand-contractions";
 
 const nlp = winkNLP(model);
@@ -27,6 +26,26 @@ const abbreviationExpansionOf = new Map<string, string | undefined>([
   ["nov.", "November"],
   ["dec.", "December"],
 ]);
+
+/**
+ * Replace any symbol that is not alpha-numeric with the one given
+ * @param {string} text text to clean
+ * @param {string} symbol symbol to use as replacement for non alpha num symbols
+ * @return string with only alpha numeric symbols
+ */
+export function replaceNonAlphaNumSymbolsWith(
+  text: string,
+  symbol: string,
+  symbolsToIgnore: string[] = []
+): string {
+  const specialSymbolsRegex = new RegExp(`[a-z0-9${symbolsToIgnore.join("")}]+`, "gui");
+  const alphaNumMatches = text.match(specialSymbolsRegex);
+  return alphaNumMatches?.join(symbol) ?? "";
+}
+
+export function normalizeString(str: string): string {
+  return replaceNonAlphaNumSymbolsWith(str, "_").replaceAll(/_+/giu, "_");
+}
 
 /**
  * transform words to its lemma

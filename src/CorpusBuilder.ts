@@ -7,7 +7,8 @@ import {
   Page,
 } from "playwright-chromium";
 import { exit } from "process";
-import { normalizeString, replaceNonAlphaNumSymbolsWith, sleep } from "./Util";
+import { normalizeString, replaceNonAlphaNumSymbolsWith } from "./Util_NLP";
+import { sleep } from "./Util";
 
 export default class CorpusBuilder {
   readonly sessionPath = "corpus_builder_session.json";
