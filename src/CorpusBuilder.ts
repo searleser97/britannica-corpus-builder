@@ -88,7 +88,10 @@ export default class CorpusBuilder {
         !this.visitedSites.has(Path.join(this.baseUrl, "browse", topic))
     );
 
-    console.log("topics already processed:", allTopics.length - topicsToVisit.length);
+    console.log(
+      "topics already processed:",
+      allTopics.length - topicsToVisit.length
+    );
     console.log("topics to process:", topicsToVisit.length);
 
     console.log("corpus recopilation started");
@@ -127,12 +130,20 @@ export default class CorpusBuilder {
         subTopicsURLs = subTopicsURLs.filter(
           (subTopicURL) => !this.visitedSites.has(subTopicURL)
         );
+        const parentCategoryAuxiliar = await this.getParentCategory(page);
         for (const subTopicURL of subTopicsURLs) {
           await page.goto(subTopicURL);
-          const parentCategory = await this.getParentCategory(page);
+          const parentCategory =
+            (await this.getParentCategory(page)) ??
+            parentCategoryAuxiliar ??
+            "UNKNOWN";
           await this.downloadPlainHTML(
             page,
-            Path.join("corpus_raw", parentCategory, topic),
+            Path.join(
+              "corpus_raw",
+              normalizeString(parentCategory),
+              normalizeString(topic)
+            ),
             ".topic-paragraph"
           );
           this.visitedSites.add(subTopicURL);
@@ -161,7 +172,7 @@ export default class CorpusBuilder {
             "/",
             subTopicsURLs.length
           );
-          await sleep(1000);
+          // await sleep(1000);
         }
         this.visitedSites.add(topicURL);
         fs.appendFileSync(this.alreadyVisitedSitesFilePath, `${topicURL}\n`);
@@ -193,7 +204,7 @@ export default class CorpusBuilder {
       fs.writeFileSync(
         `${Path.join(
           downloadDir,
-          replaceNonAlphaNumSymbolsWith(Path.basename(page.url()), "_")
+          normalizeString(Path.basename(page.url()))
         )}.txt`,
         plainHTML
       );
@@ -209,9 +220,9 @@ export default class CorpusBuilder {
     const regex = new RegExp(`\\/browse\\/${categoryName}\\/[1-9]+`, "gui");
     return Array.from(
       new Set(
-        (await page.content())
-          .match(regex)
-          .map((relativeUrl) => Path.join(this.baseUrl, relativeUrl))
+        ((await page.content()).match(regex) ?? []).map((relativeUrl) =>
+          Path.join(this.baseUrl, relativeUrl)
+        )
       )
     );
   }
@@ -227,11 +238,16 @@ export default class CorpusBuilder {
     );
   }
 
-  async getParentCategory(page: Page): Promise<string> {
+  async getParentCategory(page: Page): Promise<string | undefined> {
     const spanElement = await page.$$(
       "nav.breadcrumb > span.breadcrumb-item:nth-last-of-type(2) > a"
     );
-    return normalizeString(await spanElement[0].textContent());
+    if (!spanElement || spanElement.length === 0) {
+      console.log("couldn't getParentCategory in", page.url());
+      return undefined;
+    } else {
+      return normalizeString(await spanElement[0].textContent());
+    }
   }
 
   async quickTest() {

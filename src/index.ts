@@ -6,6 +6,7 @@ import fs from "fs";
 //import lineReader from "line-reader";
 import path from "path";
 import nReadlines from "n-readlines";
+import { buildFastTextFormattedFilePreprocessed, buildFastTextFormattedFileRaw } from "./FastTextFormatBuilder";
 
 async function getSiteNames(forceRequest?: boolean) {
   const siteNamesFile = "siteNames.txt";
@@ -87,4 +88,6 @@ async function main() {
   // await cb.quickTest();
 }
 
-main();
+// main();
+
+buildFastTextFormattedFilePreprocessed("corpus_raw", 3);
