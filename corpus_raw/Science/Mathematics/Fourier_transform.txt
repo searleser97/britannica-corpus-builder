@@ -1,0 +1,4 @@
+Fourier transform,  in mathematics, a particular integral transform. As a transform of an integrable complex-valued function f of one real variable, it is the complex-valued function f ˆ of a real variable defined by the following equation
+In the integral equation 
+the function f (y) is an integral transform of F(x), and K(x,y) is the kernel. Often the reciprocal relationship is valid: 
+See integral transform.

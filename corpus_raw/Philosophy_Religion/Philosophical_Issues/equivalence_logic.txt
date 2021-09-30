@@ -1,0 +1,1 @@
+Equivalence, also called equivalence of propositions,  in logic and mathematics, the formation of a proposition from two others which are linked by the phrase “if, and only if.” The equivalence formed from two propositions p and q also may be defined by the statement “p is a necessary and sufficient condition for q.”

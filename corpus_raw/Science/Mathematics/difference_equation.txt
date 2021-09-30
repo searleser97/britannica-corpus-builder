@@ -1,0 +1,6 @@
+Difference equation,  mathematical equality involving the differences between successive values of a function of a discrete variable. A discrete variable is one that is defined or of interest only for values that differ by some finite amount, usually a constant and often 1; for example, the discrete variable x may have the values x0 = a, x1 = a + 1, x2 = a + 2, . . ., xn = a + n. The function y has the corresponding values y0, y1, y2, . . ., yn, from which the differences can be found:
+
+Any equation that relates the values of Δyi to each other or to xi is a difference equation. In general, such an equation takes the form
+
+Systematic methods have been developed for the solution of these equations and for those in which, for example, second-order differences are involved. A second-order difference is defined as
+

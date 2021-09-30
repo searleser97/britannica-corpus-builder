@@ -1,0 +1,2 @@
+Scalar,  a physical quantity that is completely described by its magnitude; examples of scalars are volume, density, speed, energy, mass, and time. Other quantities, such as force and velocity, have both magnitude and direction and are called vectors.
+Scalars are described by real numbers that are usually but not necessarily positive. The work done on a particle by a force, for example, is a negative number when the particle moves in a direction opposite to that in which the force acts. Scalars can be manipulated by the ordinary laws of algebra.

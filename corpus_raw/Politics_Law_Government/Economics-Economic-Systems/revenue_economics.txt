@@ -1,0 +1,6 @@
+Revenue,  in economics, the income that a firm receives from the sale of a good or service to its customers.
+Technically, revenue is calculated by multiplying the price (p) of the good by the quantity produced and sold (q). In algebraic form, revenue (R) is defined as R = p × q.
+The sum of revenues from all products and services that a company produces is called total revenue (TR). For a firm that produces n goods, this can be calculated as 
+TR = (p1 x q1) + (p2 x q2) + … + (pn x qn)
+where pi and qi respectively denote the price and quantity of good i, for i = 1, …, n.
+An important aspect of revenue in economic analysis is the notion of marginal revenue. The marginal revenue acquired from a product is the additional revenue that the firm earns by selling one more unit of that product. A firm desiring to maximize its profits will, in theory, continue to expand its output as long as the revenue from the last additional unit produced (marginal revenue) exceeds the cost of producing that last unit (marginal cost). When a firm’s output is such that marginal revenue and marginal cost for the last unit produced are equal, that firm is said to be maximizing its profits.

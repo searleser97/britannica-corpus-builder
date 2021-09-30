@@ -1,0 +1,9 @@
+epoxide,  cyclic ether with a three-membered ring. The basic structure of an epoxide contains an oxygen atom attached to two adjacent carbon atoms of a hydrocarbon.
+The strain of the three-membered ring makes an epoxide much more reactive than a typical acyclic ether. Ethylene oxide is economically the most important epoxide and is made from oxidation of ethylene over a silver catalyst. It is used as a fumigant and to make antifreeze, ethylene glycol, and other useful compounds.
+More-complex epoxides are commonly made by the epoxidation of alkenes, often using a peroxyacid (RCO3H) to transfer an oxygen atom.
+
+Another important industrial route to epoxides requires a two-step process. First, an alkene is converted to a chlorohydrin, and second, the chlorohydrin is treated with a base to eliminate hydrochloric acid, giving the epoxide; this is the method used to make propylene oxide.
+
+Epoxides are easily opened, under acidic or basic conditions, to give a variety of products with useful functional groups. For example, the acid- or base-catalyzed hydrolysis of propylene oxide gives propylene glycol.
+
+Epoxides can be used to assemble polymers known as epoxies, which are excellent adhesives and useful surface coatings. The most common epoxy resin is formed from the reaction of epichlorohydrin with bisphenol A.

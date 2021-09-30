@@ -1,0 +1,8 @@
+Hess’s law, also called Hess’s law of constant heat summation or Hess’s law of heat summation,  rule first enunciated by Germain Henri Hess, a Swiss-born Russian chemist, in 1840, stating that the heat absorbed or evolved (or the change in enthalpy) in any chemical reaction is a fixed quantity and is independent of the path of the reaction or the number of steps taken to obtain the reaction. Hess’s law can be written as ΔH° = ΣΔHn, where ΔH° is the heat absorbed or evolved and ΣΔHn is the sum of the heat absorbed or evolved in the individual n steps of the reaction. Hess’s law is a consequence of the first law of thermodynamics and need not be considered a separate thermodynamic law; in thermochemistry, however, it retains its identity because of its importance as the basis for calculating heats of reactions. Hess’s law is exemplified by the calculation of the heat of formation of carbon dioxide from its elements (carbon [C] and oxygen [O]). This reaction is represented by
+
+In the equation (c) and (g) denote crystalline and gaseous, respectively; here ΔH° is called the heat of formation.
+In accordance with Hess’s law, the heat of formation of carbon dioxide is the same, whether it occurs in one reaction as represented by the equation above or in two steps as represented by the equations given below:
+
+The sum of the above equations is:
+
+Thus Hess’s law allows the calculation of the heats of various reactions from the heats of other reactions.

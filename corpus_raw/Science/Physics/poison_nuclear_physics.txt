@@ -1,0 +1,1 @@
+Poison,   in nuclear physics, any material that can easily capture neutrons without subsequently undergoing nuclear fission. Examples of poisons are the naturally occurring elements boron and cadmium and the fission products xenon-135 and samarium-149. In nuclear reactors, poisons act as parasitic neutron absorbers and lower the rate of fission. 

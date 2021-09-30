@@ -1,0 +1,8 @@
+Binomial theorem,  statement that for any positive integer n, the nth power of the sum of two numbers a and b may be expressed as the sum of n + 1 terms of the form
+
+in the sequence of terms, the index r takes on the successive values 0, 1, 2,…, n. The coefficients, called the binomial coefficients, are defined by the formula
+
+in which n! (called n factorial) is the product of the first n natural numbers 1, 2, 3,…, n (and where 0! is defined as equal to 1). The coefficients may also be found in the array often called Pascal’s triangle
+
+by finding the rth entry of the nth row (counting begins with a zero in both directions). Each entry in the interior of Pascal’s triangle is the sum of the two entries above it. Thus, the powers of (a + b)n are 1, for n = 0; a + b, for n = 1; a2 + 2ab + b2, for n = 2; a3 + 3a2b + 3ab2 + b3, for n = 3; a4 + 4a3b + 6a2b2 + 4ab3 + b4, for n = 4, and so on.
+The theorem is useful in algebra as well as for determining permutations and combinations and probabilities. For positive integer exponents, n, the theorem was known to Islamic and Chinese mathematicians of the late medieval period. Al-Karajī calculated Pascal’s triangle about 1000 ce, and Jia Xian in the mid-11th century calculated Pascal’s triangle up to n = 6. Isaac Newton discovered about 1665 and later stated, in 1676, without proof, the general form of the theorem (for any real number n), and a proof by John Colson was published in 1736. The theorem can be generalized to include complex exponents for n, and this was first proved by Niels Henrik Abel in the early 19th century.

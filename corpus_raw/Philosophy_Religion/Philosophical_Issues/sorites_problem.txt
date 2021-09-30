@@ -1,0 +1,1 @@
+Sorites problem,  Paradox presented by the following reasoning: One grain of sand does not constitute a heap; if n grains of sand do not constitute a heap, then neither do n + 1 grains of sand; therefore, no matter how many grains of sand are put together, they never constitute a heap. The problem is apt to arise in connection with any vague term.

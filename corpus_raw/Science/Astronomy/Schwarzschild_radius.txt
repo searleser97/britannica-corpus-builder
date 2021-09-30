@@ -1,0 +1,4 @@
+Schwarzschild radius, also called gravitational radius,  the radius below which the gravitational attraction between the particles of a body must cause it to undergo irreversible gravitational collapse. This phenomenon is thought to be the final fate of the more massive stars (see black hole).
+The Schwarzschild radius (Rg) of an object of mass M is given by the following formula, in which G is the universal gravitational constant and c is the speed of light: Rg = 2GM/c2.
+For a mass as small as a human being, the Schwarzschild radius is of the order of 10-23 cm, much smaller than the nucleus of an atom; for a typical star such as the Sun, it is about 3 km (2 miles).
+The Schwarzschild radius is named for the German astronomer and physicist Karl Schwarzschild, who investigated the concept in the early 20th century.

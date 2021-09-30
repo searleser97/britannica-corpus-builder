@@ -1,0 +1,1 @@
+Advection,  in atmospheric science, change in a property of a moving mass of air because the mass is transported by the wind to a region where the property has a different value (e.g., the change in temperature when a warm air mass moves into a cool region). Advection can refer to either the horizontal or vertical components of the motion.

@@ -1,0 +1,2 @@
+Homozygote,   an organism with identical pairs of genes (or alleles) for a specific trait. If both of the two gametes (sex cells) that fuse during fertilization carry the same form of the gene for a specific trait, the organism is said to be homozygous for that trait. In a heterozygous organism, or heterozygote, the genes for a specific trait are different.
+Because genes may be either dominant or recessive, the genetic composition (genotype) of an organism cannot always be determined by the physical appearance (phenotype).

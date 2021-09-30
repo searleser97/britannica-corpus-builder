@@ -1,0 +1,1 @@
+Disjunction,  in logic, relation or connection of terms in a proposition to express the concept “or”; it is a statement of alternatives (sometimes called “alternation”). For clarity, exclusive disjunction (either x or y, but not both), symbolized x ⊻ y, must be distinguished from inclusive disjunction (either x or y, or both x and y), symbolized x ∨ y. See also implication. 

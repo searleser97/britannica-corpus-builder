@@ -1,0 +1,1 @@
+Product rule,  Rule for finding the derivative of a product of two functions. If both f and g are differentiable, then (fg)′ = fg′ + f′g.

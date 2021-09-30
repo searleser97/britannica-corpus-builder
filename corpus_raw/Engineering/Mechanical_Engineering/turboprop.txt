@@ -1,0 +1,3 @@
+Turboprop, also called P Jet,  hybrid engine that provides jet thrust and also drives a propeller. It is basically similar to a turbojet except that an added turbine, rearward of the combustion chamber, works through a shaft and speed-reducing gears to turn a propeller at the front of the engine.
+The first experimental turboprop aircraft, a modified Gloster Meteor fighter equipped with two Rolls-Royce Trent units, flew in 1945 in England. The first turboprop commercial airliner to enter scheduled service was the Vickers Type 701 Viscount, April 18, 1953.
+As a consequence of improvements in turbojet design, the turboprop—less efficient at high speeds—lost much of its importance in the 1960s, although it was retained for relatively short range aircraft.

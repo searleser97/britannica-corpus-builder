@@ -1,0 +1,2 @@
+Constant,  a number, value, or object that has a fixed magnitude, physically or abstractly, as a part of a specific operation or discussion. In mathematics the term refers to a quantity (often represented by a symbol—e.g., π, the ratio of a circle’s circumference to its diameter) that does not change in a certain discussion or operation, or to a variable that can assume only one value. In logic it is a term with an invariant denotation (any symbol with a fixed designation, such as a connective or quantifier).
+For discussion of physical constants, see physical constant.

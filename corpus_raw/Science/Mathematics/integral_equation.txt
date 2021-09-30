@@ -1,0 +1,1 @@
+integral equation,  in mathematics, equation in which the unknown function to be found lies within an integral sign. An example of an integral equation isin which f(x) is known; if f(x) = f(-x) for all x, one solution is

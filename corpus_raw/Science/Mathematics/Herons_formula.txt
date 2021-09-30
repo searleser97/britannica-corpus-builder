@@ -1,0 +1,3 @@
+Heron’s formula,  formula credited to Heron of Alexandria (c. 62 ce) for finding the area of a triangle in terms of the lengths of its sides. In symbols, if a, b, and c are the lengths of the sides: 
+Area = Square root of√s(s - a)(s - b)(s - c)
+where s is half the perimeter, or (a + b + c)/2.

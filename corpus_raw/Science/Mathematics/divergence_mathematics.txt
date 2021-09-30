@@ -1,0 +1,1 @@
+Divergence,  In mathematics, a differential operator applied to a three-dimensional vector-valued function. The result is a function that describes a rate of change. The divergence of a vector v is given by  in which v1, v2, and v3 are the vector components of v, typically a velocity field of fluid flow.

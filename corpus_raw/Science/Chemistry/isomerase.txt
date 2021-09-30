@@ -1,0 +1,1 @@
+Isomerase,  any one of a class of enzymes that catalyze reactions involving a structural rearrangement of a molecule. Alanine racemase, for example, catalyzes the conversion of L-alanine into its isomeric (mirror-image) form, D-alanine. An isomerase called mutarotase catalyzes the conversion of α-d-glucose into β-d-glucose. cf. ligase, lyase.

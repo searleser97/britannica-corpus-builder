@@ -1,0 +1,1 @@
+Fundamental theorem of arithmetic,  Fundamental principle of number theory proved by Carl Friedrich Gauss in 1801. It states that any integer greater than 1 can be expressed as the product of prime numbers in only one way.

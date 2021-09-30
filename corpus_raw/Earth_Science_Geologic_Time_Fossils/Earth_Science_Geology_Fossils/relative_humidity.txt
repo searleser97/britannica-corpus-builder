@@ -1,0 +1,1 @@
+Relative humidity,   ratio of the actual vapour pressure of water in the air to that in air saturated with water vapour; it is often expressed as a percentage. See humidity. 

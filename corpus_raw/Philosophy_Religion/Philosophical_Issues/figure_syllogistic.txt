@@ -1,0 +1,3 @@
+Figure,  in logic, the classification of syllogisms according to the arrangement of the middle term, namely, the term (subject or predicate of a proposition) that occurs in both premises but not in the conclusion. There are four figures:
+
+In the first figure the middle term is the subject of the major premise and the predicate of the minor premise; in the second figure the middle term is the predicate of both premises; in the third figure the middle term is the subject of both premises; in the fourth figure the middle term is the predicate of the major premise and the subject of the minor premise. All standard syllogisms may be described by designating their figure and mood.

@@ -1,0 +1,4 @@
+Lerner index,  in economics, a measure of the market power of a firm. Formalized by the Russian-British economist Abba P. Lerner in 1934, the Lerner index is expressed in the following formula:
+Lerner index = P - MC/P
+where P represents the price of the good set by the firm and MC represents the firm’s marginal cost. Essentially, the index measures the percentage markup that a firm is able to charge over its marginal cost. The index ranges from a low value of 0 to a high of 1. The higher the value of the Lerner index, the more the firm is able to charge over its marginal cost, hence the greater its monopoly power.
+The Lerner index provides a concise measure of monopoly power. However, its use is largely restricted to theoretical studies because of the difficulty of accurately measuring costs in practice. Other measures, such as the Herfindahl-Hirschman index, are more commonly used to gauge monopoly power using real industry data.

@@ -1,0 +1,4 @@
+E. Allen Emerson, in full Ernst Allen Emerson,  (born June 2, 1954, Dallas, Texas, U.S.), American computer scientist who was cowinner of the 2007 A.M. Turing Award, the highest honour in computer science, for “his role in developing Model-Checking into a highly effective verification technology, widely adopted in the hardware and software industries.”
+Emerson earned a bachelor’s degree (1976) in mathematics from the University of Texas and a doctorate (1981) in mathematics from Harvard University. Emerson later held an endowed chair in computer science at the University of Texas at Austin.
+Emerson and his former Harvard graduate adviser Edmund M. Clarke—and independently Joseph Sifakis of France—were cited in the Turing Award for their work in 1981 on model-checking software, which is used to automate the detection of logic errors in sequential circuit designs and in software.
+According to Emerson,

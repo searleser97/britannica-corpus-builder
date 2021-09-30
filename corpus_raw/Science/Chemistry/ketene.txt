@@ -1,0 +1,7 @@
+ketene,  any of a class of organic compounds containing the functional grouping C=C=O; the most important member of the class being ketene itself, CH2=C=O, which is used in the manufacture of acetic anhydride and other industrial organic chemicals. The name suggests that ketenes are unsaturated ketones, but their chemistry resembles that of carboxylic acid anhydrides.
+Ketene is prepared by heating acetic acid or acetone to about 700 °C (1,300 °F).
+Ketene is remarkably reactive; it combines with compounds containing an easily replaced hydrogen atom to yield derivatives of acetic acid. The only important industrial use of ketene itself is its reaction with acetic acid to form acetic anhydride.
+Ketene reacts with aldehydes and ketones to form enol acetates or β-lactones.
+In the absence of a reactive substrate, ketene combines with itself to form diketene, a β-lactone used industrially to prepare derivatives of acetoacetic acid, such as ethyl acetoacetate and acetoacetamides.
+The higher ketenes are generally synthesized by elimination of hydrogen chloride from acyl chlorides. The substituted ketenes react like ketene, but less vigorously. The lactone dimers of long-chain monoalkylketenes have been used as sizing agents for paper.
+Ketene, a colourless, irritant gas, is toxic, producing delayed respiratory damage. The high reactivity of all ketenes makes them somewhat dangerous.

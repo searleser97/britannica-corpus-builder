@@ -1,0 +1,4 @@
+Celsius, also called centigrade,  scale based on 0° for the freezing point of water and 100° for the boiling point of water. Invented in 1742 by the Swedish astronomer Anders Celsius, it is sometimes called the centigrade scale because of the 100-degree interval between the defined points. The following formula can be used to convert a temperature from its representation on the Fahrenheit (°F) scale to the Celsius (°C) value: 
+°C = 5/9(°F − 32). 
+The Celsius scale is in general use wherever the metric system of units has been adopted, and it is used in scientific work everywhere.
+Celsius used 0° for the boiling point of water and 100° for the melting point of snow. This was later inverted to put 0° on the cold end and 100° on the hot end, and in that form it gained widespread use.

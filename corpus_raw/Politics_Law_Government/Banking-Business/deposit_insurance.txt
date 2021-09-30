@@ -1,0 +1,12 @@
+Deposit insurance,  special type of insurance, under which depositors are guaranteed against loss in the event of a bank failure. It was developed in the United States during the Great Depression of the 1930s to meet the serious problems created by frequent bank suspensions.
+Between 1863 and 1933, more than 17,000 U.S. banks closed their doors, and depositors suffered heavy
+losses. Even in the prosperous years from 1921 to 1929, 5,411
+banks closed, and during the next four years the Depression caused
+the failure of 8,812 more, with losses to depositors of more than
+$5 billion. Some states had set up plans to insure depositors
+against loss as early as 1829, but none proved fully successful. Congress rejected many proposals to place deposit insurance on a national basis until the disastrous collapse of the banking system in 1932 made action to protect depositors imperative.
+The federal insurance program came into being in 1933 with the creation of the Federal Deposit Insurance Corporation (FDIC) with authority to insure bank deposits in eligible banks up to a maximum of $2,500 for each depositor (later raised to $5,000 in 1934; to $10,000 in 1950; to $15,000 in 1966; to $20,000 in 1969; to $40,000 in 1974; to $100,000 in 1980; and to $250,000 in 2008) and to regulate certain banking practices. Costs of the FDIC were to be met out of regular premium payments by insured
+banks. All members of the Federal Reserve System were required
+to insure their deposits, while nonmember banks were permitted to do so if they met FDIC standards. The plan proved so attractive that within a few years over 90% of the deposits in commercial banks and a majority of
+those in mutual savings banks were insured. The deposit insurance principle was also adopted by federally chartered savings and loan associations, although these organizations were insured by the Federal Savings and Loan Insurance Corporation (FSLIC). After the collapse of the savings and loan industry in the 1980s, the FSLIC was dissolved, and responsibility for insuring savings and loan deposits was transferred to the FDIC.
+The FDIC was able to eliminate losses to depositors in suspended banks almost completely and—perhaps more important—to prevent the failure of many banks which encountered difficulties. Deposit insurance and other banking reforms in the Banking Acts of 1933 and 1935 made insured deposits in participating institutions virtually as safe as any direct obligation of the federal government.

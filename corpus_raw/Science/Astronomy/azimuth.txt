@@ -1,0 +1,1 @@
+Azimuth,  the angular distance from the north or south point of the horizon to the foot of the vertical circle through a heavenly body. The azimuth of a horizontal direction is its deviation from the north or south.

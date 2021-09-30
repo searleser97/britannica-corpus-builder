@@ -1,0 +1,7 @@
+Etymology,  the history of a word or word element, including its origins and derivation. Although the etymologizing of proper names appears in the Old Testament and Plato dealt with etymology in his dialogue Cratylus, lack of knowledge of other languages and of the historical developments that languages undergo prevented ancient writers from arriving at the proper etymologies of words.
+Modern scientific etymological study is based on the methods and findings of historical and comparative linguistics, the basic principles of which were established by linguists during the 19th century. The general principles involved in present-day etymology are:
+1. The earliest form of a word, or word element, must be ascertained, as well as all parallel and related forms.
+2. Every sound of a given word, or word element, must be compared with the corresponding sound in the form (often called its etymon) from which it is derived.
+3. Any deviation in the previously established phonetic correspondences for the language of which the word is a part must be plausibly and rationally explained.
+4. Any shift in meaning that has occurred in the historical transmission of the word must also be explained.
+5. Words that present nonnative sounds, or combinations of sounds, that appear isolated in the language, or that demonstrate marked deviation from the usual phonetic correspondences, are probably borrowed rather than inherited, and the language of origin must be determined.

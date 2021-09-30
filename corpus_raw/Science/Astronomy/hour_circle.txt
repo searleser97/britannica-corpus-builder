@@ -1,0 +1,2 @@
+Hour circle,   in astronomy, any great circle (similar to longitude) on the celestial sphere that passes through the celestial poles—i.e., is perpendicular to the celestial equator. The declination of a celestial object is measured along its hour circle. The hour circle that at any moment is passing through an observer’s zenith is his meridian.
+The term also refers to a scale on the mounting of an equatorial telescope, indicating the hour angle at which the telescope is aimed.

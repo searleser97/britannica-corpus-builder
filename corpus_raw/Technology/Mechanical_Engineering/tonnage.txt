@@ -1,0 +1,4 @@
+Tonnage,  in shipping, the total number of tons registered or carried or the total carrying capacity.
+Gross tonnage is calculated from the formula GT = K1V, where V is the volume of a ship’s enclosed spaces in cubic metres and K1 is a constant calculated by K1 = 0.2 + 0.02 log10 V. The measurement is used in assessing harbour dues and canal transit dues for merchant ships.
+Deadweight tonnage is a measurement of total contents of a ship including cargo, fuel, crew, passengers, food, and water aside from boiler water. It is expressed in long tons of 2,240 pounds (1,016.0469088 kilograms).
+Displacement tonnage is used to define the size of naval ships. It refers to the weight of the volume of water displaced by a vessel in normal seagoing condition.

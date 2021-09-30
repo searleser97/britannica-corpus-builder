@@ -1,0 +1,1 @@
+line integral, also called Contour Integral,  in mathematics, integral of a function of several variables, defined on a line or curve C with respect to arc length s:as the maximum segment Δis of C approaches 0. The line integralsare defined analogously. Line integrals are used extensively in the theory of functions of a complex variable.

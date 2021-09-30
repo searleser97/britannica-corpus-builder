@@ -1,0 +1,2 @@
+Tuned circuit,   any electrically conducting pathway containing both inductive and capacitive elements. If these elements are connected in series, the circuit presents low impedance to alternating current of the resonant frequency, which is determined by the values of the inductance and capacitance, and high impedance to current of other frequencies.
+In a parallel-connected tuned circuit, the impedance is high at the resonant frequency, low at others. See also resonance.

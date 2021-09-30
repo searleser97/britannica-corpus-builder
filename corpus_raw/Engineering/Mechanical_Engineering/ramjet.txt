@@ -1,0 +1,3 @@
+Ramjet,  air-breathing jet engine that operates with no major moving parts. It relies on the craft’s forward motion to draw in air and on a specially shaped intake passage to compress the air for combustion. After fuel sprayed into the engine has been ignited, combustion is self-sustaining. As in other jet engines, forward thrust is obtained as a reaction to the rearward rush of hot exhaust gases.
+Ramjets work best at speeds of Mach 2 (twice the speed of sound) and higher. Since ramjets develop no static thrust, some means for launching them at high velocity is required.
+The first aircraft to fly solely on ramjet power, the Leduc 0.10, was built in France and was launched from another airplane on April 21, 1949. Compare turbojet. 

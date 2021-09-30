@@ -1,0 +1,17 @@
+Variation of parameters,  general method for finding a particular solution of a differential equation by replacing the constants in the solution of a related (homogeneous) equation by functions and determining these functions so that the original differential equation will be satisfied.
+To illustrate the method, suppose it is desired to find a particular solution of the equation 
+y″ + p(x)y′ + q(x)y = g(x).
+To use this method, it is necessary first to know the general solution of the corresponding homogeneous equation—i.e., the related equation in which the right-hand side is zero. If y1(x) and y2(x) are two distinct solutions of the equation, then any combination 
+ay1(x) + by2(x)
+will also be a solution, called the general solution, for any constants a and b.
+The variation of parameters consists of replacing the constants a and b by functions u1(x) and u2(x) and determining what these functions must be to satisfy the original nonhomogeneous equation. After some manipulations, it can be shown that if the functions u1(x) and u2(x) satisfy the equations 
+u′1y1 + u′2y2 = 0
+and 
+u1′y1′ + u2′y2′ = g,
+then 
+u1y1 + u2y2
+will satisfy the original differential equation. These last two equations can be solved to give 
+u1′ = −y2g/(y1y2′ − y1′y2)
+and 
+u2′ = y1g/(y1y2′ − y1′y2).
+ These last equations either will determine u1 and u2 or else will serve as a starting point for finding an approximate solution.

@@ -1,0 +1,4 @@
+Timothy Gowers, in full Sir William Timothy Gowers,  (born November 20, 1963, Marlborough, Wiltshire, England), British mathematician who won the Fields Medal in 1998 for his work in the theory of Banach spaces.
+Gowers studied undergraduate mathematics at the University of Cambridge and went on to finish his doctorate there in 1990. He held teaching and research positions at Cambridge and at University College, London.
+Gowers received the Fields Medal at the International Congress of Mathematicians in Berlin in 1998 for his solution of several outstanding problems of Banach spaces. His dichotomy theorem asserts that either every subspace of a given Banach space has many symmetries or the subspaces have only trivial symmetries. He also did profound work on combinatorial number theory and gave an improved proof of number theorist Endre Szeméredi’s theorem on arithmetic progressions.
+Gowers became a fellow of the Royal Society in 1999. He was knighted in 2012.

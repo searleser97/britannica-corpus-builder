@@ -1,0 +1,1 @@
+Fundamental theorem of algebra,  Theorem of equations proved by Carl Friedrich Gauss in 1799. It states that every polynomial equation of degree n with complex number coefficients has n roots, or solutions, in the complex numbers.

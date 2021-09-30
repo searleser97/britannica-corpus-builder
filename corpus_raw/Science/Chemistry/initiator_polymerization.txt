@@ -1,0 +1,5 @@
+Initiator,   a source of any chemical species that reacts with a monomer (single molecule that can form chemical bonds) to form an intermediate compound capable of linking successively with a large number of other monomers into a polymeric compound.
+The most widely used initiators produce free radicals (reactive atoms or groups of atoms that contain odd numbers of electrons); examples include peroxides and aliphatic azo compounds used to polymerize vinyl chloride, methyl methacrylate, and other monomers.
+Acid-forming systems such as boron trifluoride with traces of water react with a monomer to produce a positively charged (cationic) intermediate. Such initiation is used in the conversion of isobutylene to butyl rubber.
+Reaction of metallic sodium and biphenyl produces an anionic initiator that causes formation of polymer chains with reactive sites at both ends; these may be further treated with a different monomer to yield block copolymers.
+Polypropylene and high-density polyethylene are prepared by use of Ziegler catalysts, which are initiators composed of organometallic compounds and metallic halides, such as triethylaluminum and titanium tetrachloride.

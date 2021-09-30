@@ -1,0 +1,1 @@
+Conjunction,  in logic, a type of connective that uses the word “and” to join together two propositions. See connective.

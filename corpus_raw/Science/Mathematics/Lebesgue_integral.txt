@@ -1,0 +1,12 @@
+Lebesgue integral,  way of extending the concept of area inside a curve to include functions that do not have graphs representable pictorially. The graph of a function is defined as the set of all pairs of x- and y-values of the function. A graph can be represented pictorially if the function is piecewise continuous, which means that the interval over which it is defined can be divided into subintervals on which the function has no sudden jumps. Because the Riemann integral is based on the Riemann sums, which involve subintervals, a function not definable in this way will not be Riemann integrable.
+For example, the function that equals 1 when x is rational and equals 0 when x is irrational has no interval in which it does not jump back and forth. Consequently, the Riemann sum
+ f (c1)Δx1 + f (c2)Δx2 +⋯+ f (cn)Δxn
+has no limit but can have different values depending upon where the points c are chosen from the subintervals Δx.
+Lebesgue sums are used to define the Lebesgue integral of a bounded function by partitioning the y-values instead of the x-values as is done with Riemann sums. Associated with the partition 
+{yi} (= y0, y1, y2,…, yn)
+are the sets Ei composed of all x-values for which the corresponding y-values of the function lie between the two successive y-values yi − 1 and yi. A number is associated with these sets Ei, written as m(Ei) and called the measure of the set, which is simply its length when the set is composed of intervals. The following sums are then formed:  
+S = m(E0)y1 + m(E1)y2 +⋯+ m(En − 1)yn
+ and 
+s = m(E0)y0 + m(E1)y1 +⋯+ m(En − 1)yn − 1.
+As the subintervals in the y-partition approach 0, these two sums approach a common value that is defined as the Lebesgue integral of the function.
+The Lebesgue integral is the concept of the measure of the sets Ei in the cases in which these sets are not composed of intervals, as in the rational/irrational function above, which allows the Lebesgue integral to be more general than the Riemann integral.

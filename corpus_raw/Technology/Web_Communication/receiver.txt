@@ -1,0 +1,1 @@
+Receiver,  in electronics, any of various devices that accept signals, such as radio waves, and convert them (frequently with amplification) into a useful form. Examples are telephone receivers, which transform electrical impulses into audio signals, and radio or television receivers, which accept electromagnetic waves and convert them into sound or television pictures.

@@ -1,0 +1,1 @@
+analysis of algorithms,  basic computer science discipline that aids in the development of effective programs. Analysis of algorithms provides proof of the correctness of algorithms, allows for the accurate prediction of program performance, and can be used as a measure of computational complexity. See also Donald Knuth.

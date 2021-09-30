@@ -1,0 +1,2 @@
+machine learning,  in artificial intelligence (a subject within computer science), discipline concerned with the implementation of computer software that can learn autonomously.
+Expert systems and data mining programs are the most common applications for improving algorithms through the use of machine learning. Among the most common approaches are the use of artificial neural networks (weighted decision paths) and genetic algorithms (symbols “bred” and culled by algorithms to produce successively fitter programs).

@@ -1,0 +1,1 @@
+Carrier wave,   in electronics, the unmodulated single-frequency electromagnetic wave that carries the desired information—i.e., is modulated by the information. See modulation (electronics).

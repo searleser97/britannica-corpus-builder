@@ -1,0 +1,3 @@
+kernel,  in mathematics, known function that appears in the integrand of an integral equation. Thus, in the equation
+(for symbol, see integration), both the kernel function, K(x, y), and g(x) are given, and f(x) is the function sought. As an example, in Abel’s equation for the curve followed by a particle moving in a vertical plane under the influence of gravity, which takes the form of the integral equationin which t is time, the kernel function iswith g the acceleration of gravity.
+Other kernels in mathematics, such as the Dirichlet kernel and Fejér’s kernel, are concerned with Fourier series. See integral transform.

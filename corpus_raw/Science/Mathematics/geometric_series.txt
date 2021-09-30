@@ -1,0 +1,6 @@
+Geometric series,  in mathematics, an infinite series of the form 
+a + ar + ar2 + ar3+⋯, 
+where r is known as the common ratio. A simple example is the geometric series for a = 1 and r = 1/2, or 
+1 + 1/2 + 1/4 + 1/8 +⋯,
+which converges to a sum of 2 (or 1 if the first term is excluded). The Achilles paradox is an example of the difficulty that ancient Greek mathematicians had with the idea that an infinite series could produce a finite sum. The confusion around infinity did not abate until the 18th century, when mathematicians developed analysis and the concept of limits.
+The sum of the first n terms of a geometric series is equal to a(1 − rn)/(1 − r). If the absolute value of r is less than 1, the series converges to a/(1 − r). For any other value of r, the series diverges.

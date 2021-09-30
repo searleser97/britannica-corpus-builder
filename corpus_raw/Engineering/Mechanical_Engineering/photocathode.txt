@@ -1,0 +1,1 @@
+Photocathode,   an element of a photoelectric cell (q.v.) that emits electrons when struck by light, making possible the flow of electric current through the device. A substance often used for photocathodes is a partially oxidized silver–cesium alloy. 

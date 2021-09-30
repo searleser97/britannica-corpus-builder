@@ -1,0 +1,1 @@
+Electrogasdynamics,   study of the forces produced by the motion of electrically charged particles (ions) carried by an insulating gas flowing through an electric field. See also magnetohydrodynamic power generator.

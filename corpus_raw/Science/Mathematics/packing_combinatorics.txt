@@ -1,0 +1,1 @@
+Packing,   in mathematics, a type of problem in combinatorial geometry that involves placement of figures of a given size or shape within another given figure—with greatest economy or subject to some other restriction. The problem of placement of a given number of spheres within a given volume of space is an example of a packing problem.

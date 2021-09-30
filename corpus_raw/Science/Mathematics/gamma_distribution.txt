@@ -1,0 +1,5 @@
+Gamma distribution,  in statistics, continuous distribution function with two positive parameters, α and β, for shape and scale, respectively, applied to the gamma function. Gamma distributions occur frequently in models used in engineering (such as time to failure of equipment and load levels for telecommunication services), meteorology (rainfall), and business (insurance claims and loan defaults) for which the variables are always positive and the results are skewed (unbalanced).
+The gamma function, a generalization of the factorial function to nonintegral values, was introduced by Swiss mathematician Leonhard Euler in the 18th century. For values of x > 0, the gamma function is defined using an integral formula as Γ(x) = Integral on the interval [0, ∞ ] of
+			∫
+			 0 ∞ t x −1 e−t dt. The probability density function for the gamma distribution is given by 
+The mean of the gamma distribution is αβ and the variance (square of the standard deviation) is αβ2.

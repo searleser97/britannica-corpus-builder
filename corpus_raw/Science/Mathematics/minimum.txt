@@ -1,0 +1,1 @@
+Minimum,  in mathematics, point at which the value of a function is less than or equal to the value at any nearby point (local minimum) or at any point (absolute minimum); see extremum.

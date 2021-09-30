@@ -1,0 +1,3 @@
+suspension,  in music, a means of creating tension by prolonging a consonant note while the underlying harmony changes, normally on a strong beat.
+
+The resulting dissonance persists until the suspended note resolves by stepwise motion into a new consonant harmony. In the examples above, the upper note is suspended then resolved. See also appoggiatura.

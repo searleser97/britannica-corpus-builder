@@ -1,0 +1,1 @@
+Asymptote,  In mathematics, a line or curve that acts as the limit of another line or curve. For example, a descending curve that approaches but does not reach the horizontal axis is said to be asymptotic to that axis, which is the asymptote of the curve.

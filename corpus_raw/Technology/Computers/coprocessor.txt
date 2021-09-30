@@ -1,0 +1,1 @@
+coprocessor,  additional processor used in some computers to perform specialized tasks such as extensive arithmetic calculations or processing of graphical displays. The coprocessor is often designed to do such tasks more efficiently than the central processing unit (CPU), resulting in far greater speeds for the computer as a whole.

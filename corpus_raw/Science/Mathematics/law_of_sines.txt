@@ -1,0 +1,1 @@
+law of sines,  Principle of trigonometry stating that the lengths of the sides of any triangle are proportional to the sines of the opposite angles. That is, when a, b, and c are the sides and A, B, and C are the opposite angles.

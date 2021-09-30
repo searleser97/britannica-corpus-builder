@@ -1,0 +1,1 @@
+Many-valued logic,  Formal system in which the well-formed formulae are interpreted as being able to take on values other than the two classical values of truth or falsity. The number of values possible for well-formed formulae in systems of many-valued logic ranges from three to uncountably many.

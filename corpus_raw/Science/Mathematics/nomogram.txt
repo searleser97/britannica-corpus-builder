@@ -1,0 +1,2 @@
+Nomogram, also called nomograph,  calculating chart with scales that contain values of three or more mathematical variables, widely used in medicine, engineering, industry, and the biological and physical sciences.
+In the most common form, a nomogram consists of three parallel graduated lines, known values on any two scales determining a straight index line (transversal) that passes through the solution value on the third. Some chart forms employ one or more curved graduated lines; or if straight, they may be arranged in the shape of the letter N.

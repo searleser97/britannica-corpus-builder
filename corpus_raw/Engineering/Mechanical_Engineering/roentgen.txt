@@ -1,0 +1,1 @@
+Roentgen,  unit of X-radiation or gamma radiation, the amount that will produce, under normal conditions of pressure, temperature, and humidity, in 1 kg (2.2 lbs) of air, an amount of positive or negative ionization equal to 2.58 × 10−4 coulomb. It is named for the German physicist Wilhelm Conrad Röntgen. See also rem.

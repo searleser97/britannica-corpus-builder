@@ -1,0 +1,13 @@
+inflorescence,   in a flowering plant, a cluster of flowers on a branch or a system of branches. An inflorescence is categorized on the basis of the arrangement of flowers on a main axis (peduncle) and by the timing of its flowering (determinate and indeterminate).
+In determinate (cymose) inflorescences, the youngest flowers are at the bottom of an elongated axis or on the outside of a truncated axis. At the time of flowering, the apical meristem (the terminal point of cell division) produces a flower bud, thus arresting the growth of the peduncle.
+A cyme is a flat-topped inflorescence in which the central flowers open first, followed by the peripheral flowers, as in the onion (genus Allium).
+A dichasium is one unit of a cyme and is characterized by a stunted central flower and two lateral flowers on elongated pedicels, as in the wood stichwort (species Stellaria nemorum).
+In indeterminate inflorescences, the youngest flowers are at the top of an elongated axis or on the centre of a truncated axis. An indeterminate inflorescence may be a raceme, panicle, spike, catkin, corymb, umbel, spadix, or head.
+In a raceme a flower develops at the upper angle (axil) between the stem and branch of each leaf along a long, unbranched axis. Each flower is borne on a short stalk, called a pedicel. An example of a raceme is found in the snapdragon (Antirrhinum majus).
+A panicle is a branched raceme in which each branch has more than one flower, as in the astilbe (Astilbe).
+A spike is a raceme, but the flowers develop directly from the stem and are not borne on pedicels, as in barley (Hordeum).
+A catkin (or ament) is a spike in which the flowers are either male (staminate) or female (carpellate). It is usually pendulous, and the perianth may be reduced or absent, as in oaks (Quercus).
+A corymb is a raceme in which the pedicels of the lower flowers are longer than those of the upper flowers so that the inflorescence has a flat-topped appearance overall, as in hawthorn (Crataegus).
+In an umbel, each of the pedicels initiates from about the same point at the tip of the peduncle, giving the appearance of an umbrella-like shape, as in the wax flowers (Hoya).
+A spadix is a spike borne on a fleshy stem and is common in the family Araceae (e.g., Philodendron). The subtending bract is called a spathe.
+A head (capitulum) is a short dense spike in which the flowers are borne directly on a broad, flat peduncle, giving the inflorescence the appearance of a single flower, as in the dandelion (Taraxacum).

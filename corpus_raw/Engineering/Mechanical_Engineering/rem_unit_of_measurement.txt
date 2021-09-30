@@ -1,0 +1,2 @@
+Rem,  unit of radiation dosage (such as from X rays) applied to humans. Derived from the phrase Roentgen equivalent man, the rem is now defined as the dosage in rads that will cause the same amount of biological injury as one rad of X rays or gamma rays. Formerly poorly defined, the rem was redefined in 1962 to clarify the usage of the term relative biological effectiveness (RBE) in both radiobiology and radiation protection.
+A rem is equal to 0.01 sievert in the International System of Units (SI).

@@ -1,0 +1,8 @@
+Dirichlet’s test,  in analysis (a branch of mathematics), a test for determining if an infinite series converges to some finite value. The test was devised by the 19th-century German mathematician Peter Gustav Lejeune Dirichlet.
+Let Σan be an infinite series such that its partial sums 
+sn = a1 + a2 +⋯+ an
+are bounded (less than or equal to some number). And let b1, b2, b3,… be a monotonically decreasing infinite sequence 
+(b1 ≥ b2 ≥ b3 ≥ ⋯
+that converges in the limit to zero. Then the infinite series Σanbn, or 
+a1b1 + a2b2 +⋯+ anbn+⋯
+converges to some finite value. See also Abel’s test.

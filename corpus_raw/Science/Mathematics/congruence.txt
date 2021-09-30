@@ -1,0 +1,10 @@
+Congruence,  in mathematics, a term employed in several senses, each connoting harmonious relation, agreement, or correspondence.
+Two geometric figures are said to be congruent, or to be in the relation of congruence, if it is possible to superpose one of them on the other so that they coincide throughout. Thus two triangles are congruent if two sides and their included angle in the one are equal to two sides and their included angle in the other. This idea of congruence seems to be founded on that of a "rigid body," which may be moved from place to place without change in the internal relations of its parts.
+The position of a straight line (of infinite extent) in space may be specified by assigning four suitably chosen coordinates. A congruence of lines in space is the set of lines obtained when the four coordinates of each line satisfy two given conditions. For example, all the lines cutting each of two given curves form a congruence. The coordinates of a line in a congruence may be expressed as functions of two independent parameters; from this it follows that the theory of congruences is analogous to that of surfaces in space of three dimensions. An important problem for a given congruence is that of determining the simplest surface into which it may be transformed.
+Two integers a and b are said to be congruent modulo m if
+their difference a–b is divisible by the integer m. It is then said
+that a is congruent to b modulo m, and this statement is written
+in the symbolic form a≡b (mod m). Such a relation is called a
+congruence. Congruences, particularly those involving a variable x, such as xp≡x (mod p), p being a prime number, have many
+properties analogous to those of algebraic equations. They are of
+great importance in the theory of numbers.

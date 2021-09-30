@@ -1,0 +1,9 @@
+Cryptarithm,  mathematical recreation in which the goal is to decipher an arithmetic problem in which letters have been substituted for numerical digits.
+The term crypt-arithmetic was introduced in 1931, when the following multiplication problem appeared in the Belgian journal Sphinx:
+
+Cryptarithm now denotes mathematical problems usually calling for addition, subtraction, multiplication, or division and replacement of the digits by letters of the alphabet or some other symbols.
+An analysis of the original puzzle suggested the general method of solving a relatively simple cryptarithm:
+(From 150 Puzzles in Crypt-Arithmetic by Maxey Brooke; Dover Publications, Inc., New York, 1963. Reprinted through the permission of the publisher.)
+Such puzzles had apparently appeared, on occasion, even earlier. Alphametics refers specifically to cryptarithms in which the combinations of letters make sense, as in one of the oldest and probably best known of all alphametics:
+
+Unless otherwise indicated, convention requires that the initial letters of an alphametic cannot represent zero, and that two or more letters may not represent the same digit. If these conventions are disregarded, the alphametic must be accompanied by an appropriate clue to that effect. Some cryptarithms are quite complex and elaborate and have multiple solutions. Computers have been used for the solution of such problems.

@@ -1,0 +1,16 @@
+Clef, (French: “key”)  in musical notation, symbol placed at the beginning of the staff, determining the pitch of a particular line and thus setting a reference for, or giving a “key” to, all notes of the staff. Three clef symbols are used today: the treble, bass, and C clefs, stylized forms of the letters G, F, and C, respectively.
+Music for instruments and voices is written in the clef corresponding most closely to the range of their parts. The treble, or G, clef fixes the position of the G above middle C. In modern notation this is invariably the second line from the bottom of the staff:
+
+The former French violin clef, however, fixed G at the bottom line of the staff:
+
+Music for the tenor voice is usually written in an octave transposing treble clef; a small 8 under the clef indicates that the music is to be sung an octave lower than written:
+
+The bass, or F, clef sets the position of the F below middle C. In modern notation this is fixed at the second line from the top of the staff:
+
+The once common baritone clef set F at the middle line:
+
+The C clef, or movable C clef, determines the position of middle C. It is commonly found in two principal positions: as an alto clef (standard for the viola), in which the middle line carries C:
+
+and as a tenor clef (used by the trombone, cello, and bassoon), in which middle C occurs on the second line from the top:
+
+Formerly common forms of the C clef are the soprano clef, with middle C as the bottom line, and the mezzo-soprano clef, with middle C as the second line from the bottom of the staff.

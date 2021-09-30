@@ -1,0 +1,1 @@
+Base, also called radix,  in mathematics, an arbitrarily chosen whole number greater than 1 in terms of which any number can be expressed as a sum of that base raised to various powers. See numerals and numeral systems.

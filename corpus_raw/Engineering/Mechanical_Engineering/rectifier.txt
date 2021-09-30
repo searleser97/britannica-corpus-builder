@@ -1,0 +1,3 @@
+Rectifier,  device that converts alternating electric current into direct current. It may be an electron tube (either a vacuum or a gaseous type), vibrator, solid-state device, or mechanical device. Direct current is necessary for the operation of many devices such as laptop computers, televisions, and certain power tools.
+If only one polarity of an alternating current is used to produce a pulsating direct current, the process is called half-wave rectification. When both polarities are used, producing a continuous train of pulses, the process is called full-wave rectification.
+Diodes are used in half- and full-wave circuits. In a full-wave circuit, two diodes are used, one for each for half of the cycle. A half-wave circuit uses only one diode.

@@ -1,0 +1,1 @@
+Gal,  unit of acceleration, named in honour of the Italian physicist and astronomer Galileo Galilei (1564–1642) and used especially in measurements of gravity. One gal equals a change in rate of motion of one centimetre (0.3937 inch) per second per second.

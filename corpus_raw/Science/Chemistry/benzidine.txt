@@ -1,0 +1,4 @@
+Benzidine,   an organic chemical belonging to the class of amines and used in making numerous dyestuffs. The azo dyes derived from benzidine are important because, unlike simpler classes of azo dyes, they become strongly fixed to cotton without a mordant.
+Benzidine is prepared from nitrobenzene by reduction in alkaline medium to hydrazobenzene (C6H5NHNHC6H5), which is converted to benzidine by treatment with strong acid. This process is the simplest case of a general reaction, the benzidine rearrangement.
+The chemical reactions of benzidine are typical of aromatic primary amines; with nitrous acid it yields the bisdiazonium salt, which may be coupled with aromatic amino or hydroxyl compounds to produce azo dyes.
+Benzidine, a colourless, crystalline solid, practically insoluble in water, is toxic, causing dermatitis and bladder tumours. It is used in forensics for the identification of bloodstains. 

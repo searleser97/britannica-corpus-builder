@@ -1,0 +1,6 @@
+vinyl chloride, also called chloroethylene,  a colourless, flammable, toxic gas belonging to the family of organohalogen compounds and used principally in making polyvinyl chloride, or PVC, a widely used plastic with numerous applications.
+The major industrial preparation of vinyl chloride begins with ethylene and has two variants. In one, ethylene is converted to 1,2-dichloroethane (ethylene chloride) by reaction with chlorine. Heating 1,2-dichloroethane in the presence of a charcoal catalyst gives vinyl chloride.
+In the other process (called oxychlorination), ethylene, hydrogen chloride, and oxygen (or air) are heated in the presence of a copper catalyst to give vinyl chloride and water.
+Typically, a vinyl chloride plant is designed to integrate the two processes so that the hydrogen chloride produced by heating 1,2-dichloroethane is used as a reactant in the oxychlorination method.
+Processes based on acetylene were developed in the 1930s and are more direct, but because acetylene is much more expensive than ethylene, these processes are used far less than ethylene-based ones.
+Vinyl chloride can cause liver damage, and it is classified as a known human carcinogen.

@@ -1,0 +1,1 @@
+Law of cosines,  Generalization of the Pythagorean theorem relating the lengths of the sides of any triangle. If a, b, and c are the lengths of the sides and C is the angle opposite side c, then c2 = a2 + b2 − 2ab cos C.

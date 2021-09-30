@@ -1,0 +1,3 @@
+autoclave,   vessel, usually of steel, able to withstand high temperatures and pressures. The chemical industry uses various types of autoclaves in manufacturing dyes and in other chemical reactions requiring high pressures. In bacteriology and medicine, instruments are sterilized by being placed in water in an autoclave and heating the water above its boiling point under pressure.
+In 1679 Denis Papin invented the steam digester, a prototype of the autoclave that is still used in cooking and is called a pressure cooker.
+The name autoclave indicates a self-closing vessel with internal pressure sealing its joints, but many autoclaves are kept closed by external mechanical means.

@@ -1,0 +1,1 @@
+Proportional counter,  type of ionization chamber capable of differentiating between various kinds of charged particles and energies (see ionization chamber).

@@ -1,0 +1,5 @@
+Beal’s conjecture,  in number theory, a generalization of Fermat’s last theorem. Fermat’s last theorem, which was proposed in 1637 by the French mathematician Pierre de Fermat and proved in 1995 by the English mathematician Andrew Wiles, states that for positive integers x, y, z, and n, 
+xn + yn = zn
+ has no solution for n > 2. In 1997 an amateur mathematician and Texas banker named Andrew Beal offered a prize of $5,000, which was subsequently increased four times and reached $1,000,000 in 2013, for a proof or counterexample of the following: If 
+xm + yn = zr,
+where m, n, and r are all greater than 2, then x, y, and z have a common prime factor (other than 1). Using computers, all combinations of integers less than 1,000 have been tested, with no counterexamples found.

@@ -1,0 +1,1 @@
+Millibar,  unit of air pressure in the metric system, commonly used in meteorology, equal to 100 pascals, 1,000 dynes per square cm (about 0.0145 pounds per square inch), or slightly less than one-thousandth of a standard atmosphere.

@@ -1,0 +1,1 @@
+Avogadro’s number,  number of units in one mole of any substance (defined as its molecular weight in grams), equal to 6.02214076 × 1023. The units may be electrons, atoms, ions, or molecules, depending on the nature of the substance and the character of the reaction (if any).See alsoAvogadro’s law.
