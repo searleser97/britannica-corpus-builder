@@ -102,10 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+node_modules
 
-*model*
-fasttext
 *.bin
 *.test
 *.train
 *.vec
+*model*
+fasttext

@@ -211,16 +211,6 @@
   },
   {
     "sameSite": "None",
-    "name": "_lr_geo_location",
-    "value": "MX",
-    "domain": "www.britannica.com",
-    "path": "/",
-    "expires": 1632971193.20673,
-    "httpOnly": false,
-    "secure": false
-  },
-  {
-    "sameSite": "None",
     "name": "personalization_id",
     "value": "\"v1_jdlj6Je1hj29dSM6Zf9PQA==\"",
     "domain": ".twitter.com",
@@ -228,16 +218,6 @@
     "expires": 1695956793.280432,
     "httpOnly": false,
     "secure": true
-  },
-  {
-    "sameSite": "None",
-    "name": "_gid",
-    "value": "GA1.2.1877369169.1632884793",
-    "domain": ".britannica.com",
-    "path": "/",
-    "expires": 1632980154,
-    "httpOnly": false,
-    "secure": false
   },
   {
     "sameSite": "None",
@@ -1521,16 +1501,6 @@
   },
   {
     "sameSite": "None",
-    "name": "APIDTS",
-    "value": "1632893740",
-    "domain": ".yahoo.com",
-    "path": "/",
-    "expires": 1632980140.722359,
-    "httpOnly": false,
-    "secure": true
-  },
-  {
-    "sameSite": "None",
     "name": "_kuid_",
     "value": "OY-0qON3",
     "domain": ".krxd.net",
@@ -1741,16 +1711,6 @@
   },
   {
     "sameSite": "None",
-    "name": "CMST",
-    "value": "YVP5vWFT+zgA",
-    "domain": ".casalemedia.com",
-    "path": "/",
-    "expires": 1632980152.869638,
-    "httpOnly": false,
-    "secure": false
-  },
-  {
-    "sameSite": "None",
     "name": "_ga_TE6YF92Y0D",
     "value": "GS1.1.1632893737.2.1.1632893754.0",
     "domain": ".britannica.com",
@@ -1868,16 +1828,6 @@
     "expires": 1664343356.045604,
     "httpOnly": false,
     "secure": false
-  },
-  {
-    "sameSite": "None",
-    "name": "KCCH",
-    "value": "YES",
-    "domain": ".ads.pubmatic.com",
-    "path": "/",
-    "expires": 1632980156,
-    "httpOnly": false,
-    "secure": true
   },
   {
     "sameSite": "None",
@@ -2152,7 +2102,7 @@
   {
     "sameSite": "None",
     "name": "subreturn",
-    "value": "https%3A%2F%2Fwww.britannica.com%2Fevent%2FBattle-of-the-Yalu-River-1894",
+    "value": "https%3A%2F%2Fwww.britannica.com%2Fbiography%2FVictoria-de-los-Angeles",
     "domain": ".britannica.com",
     "path": "/",
     "expires": -1,
@@ -2162,7 +2112,7 @@
   {
     "sameSite": "None",
     "name": "webstats",
-    "value": "\"referer_page=https%3A%2F%2Fwww.britannica.com%2Fevent%2FBattle-of-the-Yalu-River-1894\"",
+    "value": "\"referer_page=https%3A%2F%2Fwww.britannica.com%2Fbiography%2FVictoria-de-los-Angeles\"",
     "domain": ".britannica.com",
     "path": "/",
     "expires": -1,
@@ -2172,7 +2122,7 @@
   {
     "sameSite": "None",
     "name": "__mendel",
-    "value": "%7B%27pagesViewed%27%3A6569%2C%27surveyShown%27%3Afalse%2C%27topicInitialSequence%27%3A1%7D",
+    "value": "%7B%27pagesViewed%27%3A20006%2C%27surveyShown%27%3Afalse%2C%27topicInitialSequence%27%3A1%7D",
     "domain": ".britannica.com",
     "path": "/",
     "expires": -1,
@@ -2182,7 +2132,7 @@
   {
     "sameSite": "None",
     "name": "JSESSIONID",
-    "value": "E359E4BD48007C8F026B501EDF79D24E",
+    "value": "03CDC72EEE02CE1C4D3488CF553757B5",
     "domain": "www.britannica.com",
     "path": "/",
     "expires": -1,
