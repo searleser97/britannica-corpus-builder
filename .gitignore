@@ -110,3 +110,5 @@ node_modules
 *.vec
 *model*
 fasttext
+labeled_sents_raw.txt
+labeled_sents_preprocessed.txt
