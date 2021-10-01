@@ -1,0 +1,1 @@
+Effective population size,   in genetics, the size of a breeding population, a factor that is determined by the number of parents, the average number of children per family, and the extent to which family size varies from the average. The determination of the effective population size of a breeding population is necessary for studies of population growth rates and of gene flow.

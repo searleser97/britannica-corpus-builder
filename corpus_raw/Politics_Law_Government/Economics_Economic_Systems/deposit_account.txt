@@ -1,0 +1,1 @@
+Deposit account,  Either of two basic bank deposit accounts. The demand deposit is payable on demand (see check). Theoretically, the time deposit is payable only after a fixed interval of time; in practice, withdrawals from most small time-deposit accounts are paid on demand.

@@ -1,0 +1,1 @@
+Digital-to-analog conversion (DAC),  Process by which digital signals (which have a binary state) are converted to analog signals (which theoretically have an infinite number of states). For example, a modem converts computer digital data to analog audio-frequency signals that can be transmitted over telephone lines.

@@ -15,6 +15,7 @@ export default class CorpusBuilder {
 
   readonly visitedSites = new Set<string>();
   readonly alreadyVisitedSitesFilePath = "alreadyVisitedSites.txt";
+  readonly alreadyVisitedSubTopicsFilePath = "alreadyVisitedSubTopics.txt";
 
   readonly baseUrl = "https://www.britannica.com/";
   readonly blockedResourcesOnSubmit: Set<string> = new Set([
@@ -128,16 +129,21 @@ export default class CorpusBuilder {
         } else {
           subTopicsURLs.push(...(await this.getSubTopicsLinks(page)));
         }
-        subTopicsURLs = subTopicsURLs.filter(
-          (subTopicURL) => !this.visitedSites.has(subTopicURL)
+        const parentCategory =
+          (await this.getParentCategory(page)) ?? "UNKNOWN";
+        const visitedSubTopics = new Set<string>(
+          fs
+            .readFileSync(this.alreadyVisitedSubTopicsFilePath)
+            .toString()
+            .trim()
+            .split("\n")
+            .filter((line) => line !== "")
         );
-        const parentCategoryAuxiliar = await this.getParentCategory(page);
-        for (const subTopicURL of subTopicsURLs) {
+        const remainingSubTopicsURLs = subTopicsURLs.filter(
+          (subTopicsURL) => !visitedSubTopics.has(subTopicsURL)
+        );
+        for (const subTopicURL of remainingSubTopicsURLs) {
           await page.goto(subTopicURL);
-          const parentCategory =
-            (await this.getParentCategory(page)) ??
-            parentCategoryAuxiliar ??
-            "UNKNOWN";
           await this.downloadPlainHTML(
             page,
             Path.join(
@@ -147,9 +153,8 @@ export default class CorpusBuilder {
             ),
             ".topic-paragraph"
           );
-          this.visitedSites.add(subTopicURL);
           fs.appendFileSync(
-            this.alreadyVisitedSitesFilePath,
+            this.alreadyVisitedSubTopicsFilePath,
             `${subTopicURL}\n`
           );
           subTopicsCnt++;
@@ -171,10 +176,11 @@ export default class CorpusBuilder {
             "number of processed subTopics:",
             subTopicsCnt,
             "/",
-            subTopicsURLs.length
+            remainingSubTopicsURLs.length
           );
           // await sleep(1000);
         }
+        fs.writeFileSync(this.alreadyVisitedSubTopicsFilePath, "");
         this.visitedSites.add(topicURL);
         fs.appendFileSync(this.alreadyVisitedSitesFilePath, `${topicURL}\n`);
         topicsCnt++;

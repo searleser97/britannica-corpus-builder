@@ -44,7 +44,7 @@ export function replaceNonAlphaNumSymbolsWith(
 }
 
 export function normalizeString(str: string): string {
-  return replaceNonAlphaNumSymbolsWith(str, "_").replaceAll(/_+/giu, "_");
+  return replaceNonAlphaNumSymbolsWith(str, "_").replace(/_+/giu, "_");
 }
 
 /**
@@ -63,13 +63,17 @@ export function extractSents(text: string): string[] {
 }
 
 export function getFirstParagraph(filePath: string): string {
-  return fs.readFileSync(filePath).toString().split("\n")[0];
+  return getAllParagraphs(filePath)[0];
+}
+
+export function getAllParagraphs(filePath: string): string[] {
+  return fs.readFileSync(filePath).toString().trim().split("\n");
 }
 
 export function removeNumbers(text: string): string {
   return text
-    .replaceAll(/[^ ]*\d+[^ ]*/giu, "")
-    .replaceAll(/ +/giu, " ")
+    .replace(/[^ ]*\d+[^ ]*/giu, "")
+    .replace(/ +/giu, " ")
     .trim();
 }
 
@@ -78,7 +82,7 @@ export function removeNonAlphaNumSymbols(
   symbolsToKeep: string[] = []
 ): string {
   return replaceNonAlphaNumSymbolsWith(text, " ", symbolsToKeep)
-    .replaceAll(/ +/giu, " ")
+    .replace(/ +/giu, " ")
     .trim();
 }
 
@@ -92,12 +96,20 @@ export function removeStopWords(text: string): string {
 }
 
 export function expandContractions(text: string): string {
-  text = text.replaceAll(/[`’]/giu, "'");
+  text = text.replace(/[`’]/giu, "'");
   return myContractions.expand(contractions.expand(text));
 }
 
 export function removeDiacritics(text: string): string {
   return text.normalize("NFD").replace(/\p{Diacritic}/giu, "");
+}
+
+export function removeSingleCharacters(text: string): string {
+  return text.replace(/(^|(?<!\w))\w($|(?!\w))/gui, "");
+}
+
+export function removeExtraWhiteSpaces(text: string): string {
+  return text.replace(/\s+/gui, " ");
 }
 
 export function preprocessText(text: string, labelsRegex?: RegExp): string {
@@ -120,8 +132,15 @@ export function preprocessText(text: string, labelsRegex?: RegExp): string {
   processedText = removeNonAlphaNumSymbols(processedText);
   processedText = lemmatize(processedText);
   processedText = removeStopWords(processedText);
+  processedText = removeSingleCharacters(processedText);
+  processedText = removeExtraWhiteSpaces(processedText);
   processedText = processedText.toLowerCase();
-  return labels + processedText;
+  // console.log(processedText + "\n");
+  if (processedText.length > 0) {
+    return labels + processedText;
+  } else {
+    return "";
+  }
 }
 
 export const escapeRegexExpChars = (str: string) => {
@@ -137,13 +156,13 @@ function normalizeAbbreviations(text: string): string {
   );
   const abbreviations = text.match(abbRegex) ?? [];
   const regex = new RegExp(abbreviations.join("|"), "gui");
-  const result = text.replaceAll(regex, (abb) => expandAbbreviation(abb));
+  const result = text.replace(regex, (abb) => expandAbbreviation(abb));
   return result;
 }
 
 function expandAbbreviation(abbreviation: string): string {
   return (
     abbreviationExpansionOf.get(abbreviation.toLowerCase()) ??
-    abbreviation.replaceAll(/\./giu, "")
+    abbreviation.replace(/\./giu, "")
   );
 }

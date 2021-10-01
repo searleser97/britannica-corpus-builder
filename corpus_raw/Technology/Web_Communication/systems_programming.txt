@@ -1,0 +1,1 @@
+systems programming,  development of computer software that is part of a computer operating system or other control program, especially as used in computer networks. Systems programming covers data and program management, including operating systems, control programs, network software, and database management systems.

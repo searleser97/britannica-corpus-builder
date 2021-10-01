@@ -1,0 +1,91 @@
+Borate mineral,  any of various naturally occurring compounds of boron and oxygen. Most borate minerals are rare, but some form large deposits that are mined commercially.
+
+          alpha = 1.658–1.662
+        
+
+          beta = 1.662–1.667
+        
+
+          gamma = 1.668–1.673
+        
+
+          alpha = 1.445
+        
+
+          beta = 1.469
+        
+
+          gamma = 1.472
+        
+
+          alpha = 1.586
+        
+
+          beta = 1.592
+        
+
+          gamma = 1.614
+        
+
+          alpha = 1.492–1.495
+        
+
+          beta = 1.501–1.510
+        
+
+          gamma = 1.516–1.520
+        
+
+          alpha = 1.454
+        
+
+          beta = 1.472
+        
+
+          gamma = 1.488
+        
+
+          alpha = 1.83–1.85
+        
+
+          beta = 1.83–1.85
+        
+
+          gamma = 1.97–2.02
+        
+
+          alpha = 1.569–1.576
+        
+
+          beta = 1.588–1.594
+        
+
+          gamma = 1.590–1.597
+        
+
+          alpha = 1.575–1.670
+        
+
+          beta = 1.646–1.728
+        
+
+          gamma = 1.650–1.732
+        
+
+          omega = 1.461
+        
+
+          epsilon = 1.474
+        
+
+          alpha = 1.491–1.496
+        
+
+          beta = 1.504–1.506
+        
+
+          gamma = 1.519–1.520
+        
+Borate mineral structures incorporate either the BO3 triangle or BO4 tetrahedron in which oxygen or hydroxyl groups are located at the vertices of a triangle or at the corners of a tetrahedron with a central boron atom, respectively. Both types of units may occur in one structure. Vertices may share an oxygen atom to form extended boron–oxygen networks, or if bonded to another metal ion consist of a hydroxyl group. The size of the boron–oxygen complex in any one mineral generally decreases with an increase of the temperature and pressure at which the mineral forms.
+Two geological settings are conducive for the formation of borate minerals. The first is commercially more valuable and consists of an environment where an impermeable basin received borate-bearing solutions that resulted from volcanic activity. Subsequent evaporation caused precipitation of hydrated alkali and alkaline-earth borate minerals. With increased depth of burial resulting from additional sedimentation, beds of compositionally stratified borates crystallized as a consequence of temperature and pressure gradients. Because evaporation must occur for precipitation of the borates, such basin deposits usually occur in desert regions, as for example the Kramer district of the Mojave Desert and Death Valley in California, where enormous beds of stratified kernite, borax, colemanite, and ulexite are recovered, primarily by stripping away the overburden and mining the borates by classical open-pit techniques. Other noteworthy evaporite deposits occur in the Inderborsky district of Kazakhstan and in Tuscany, Italy. The sequence of precipitating alkali borates can be duplicated in the laboratory because the temperatures and pressures of their formation are low and easily accessible. Solutions of the alkali borates and the addition of metal ions such as calcium and magnesium result in the precipitation of yet other borate compounds. Among the borates commonly found in evaporite deposits are borax, colemanite, inyoite, kernite, and tincalconite.
+The second geologic setting for borate minerals is a metamorphic carbonate-rich environment, where they are formed as a result of alteration of the surrounding rocks by heat and pressure; similar borates also occur as nodules in some deeply buried sediments. These compounds were formed at relatively high temperatures and usually consist of densely packed BO3 triangles associated with such small metal ions as magnesium, manganese, aluminum, or iron. The origin of these borates is not as obvious as that of the evaporite varieties. Some were produced by the reaction of boron-bearing vapour derived from hot intruding granites during metamorphism; others are the recrystallization products of evaporite borates. Numerous borosilicates (e.g., dumortierite and tourmaline) were formed under these conditions. Compounds of this type contain both BO3 triangular units and SiO4 tetrahedral units. Among the borate minerals associated with metamorphosed environments are boracite, ludwigite, sussexite, and kotoite.

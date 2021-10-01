@@ -1,0 +1,1 @@
+SCSI, in full Small Computer System Interface,  once-common standard for connecting peripheral devices (disks, modems, printers, etc.) to small and medium-sized computers. SCSI has given way to faster standards, such as FireWire and USB (Universal Serial Bus).

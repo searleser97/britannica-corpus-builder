@@ -2,7 +2,6 @@ Basketball
 Country-Music
 Countries-of-the-World
 Rock-Music
-Classical-Music
 Music-Theory
 Folk-Music
 Jazz-Music
@@ -104,3 +103,4 @@ Middle-Ages
 Prehistoric-Age
 United-States-History
 Wars-Battles-Conflicts
+Classical-Music
