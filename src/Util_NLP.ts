@@ -67,7 +67,7 @@ export function getFirstParagraph(filePath: string): string {
 }
 
 export function getAllParagraphs(filePath: string): string[] {
-  return fs.readFileSync(filePath).toString().trim().split("\n");
+  return fs.readFileSync(filePath).toString().trim().split(/\n+/gui);
 }
 
 export function removeNumbers(text: string): string {
@@ -147,7 +147,7 @@ export const escapeRegexExpChars = (str: string) => {
   return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); // $& means the whole matched string
 };
 
-function normalizeAbbreviations(text: string): string {
+export function normalizeAbbreviations(text: string): string {
   const abbRegex = new RegExp(
     `${Array.from(abbreviationExpansionOf.keys())
       .map((abb) => escapeRegexExpChars(abb))
@@ -160,9 +160,14 @@ function normalizeAbbreviations(text: string): string {
   return result;
 }
 
-function expandAbbreviation(abbreviation: string): string {
+export function expandAbbreviation(abbreviation: string): string {
   return (
     abbreviationExpansionOf.get(abbreviation.toLowerCase()) ??
     abbreviation.replace(/\./giu, "")
   );
+}
+
+export function isProbablyName(text: string): boolean {
+  text = removeDiacritics(text);
+  return text.match(/^\w+((_+|\s+)\w+){1,2}$/gui) !== undefined;
 }

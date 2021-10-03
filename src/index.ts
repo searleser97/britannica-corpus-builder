@@ -28,11 +28,12 @@ async function main() {
     await buildFastTextFormattedFilePreprocessed();
   } else if (command === "split_train_test") {
     const DS = args[3];
+    const trainProportion = parseFloat(args[4] ?? "0.8");
     if (!DS) {
       console.log("missing datasource file with corpus");
       return;
     }
-    splitIntoTrainAndText(DS);
+    splitIntoTrainAndText(DS, trainProportion);
   } else if (command === "train") {
     const trainDS = args[3];
     await trainFastText(trainDS);

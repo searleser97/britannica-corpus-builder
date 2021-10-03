@@ -1,0 +1,96 @@
+Huawei is the second-biggest smartphone maker in the world, after Samsung, as of the first quarter of 2019. Their portfolio of phones includes both high-end smartphones, its Huawei Mate series and Huawei P series, and cheaper handsets that fall under its Honor brand.[112]
+In July 2003, Huawei established their handset department and by 2004, Huawei shipped their first phone, the C300. The U626 was Huawei's first 3G phone in June 2005 and in 2006, Huawei launched the first Vodafone-branded 3G handset, the V710. The U8220 was Huawei's first Android smartphone and was unveiled in MWC 2009. At CES 2012, Huawei introduced the Ascend range starting with the Ascend P1 S. At MWC 2012, Huawei launched the Ascend D1. In September 2012, Huawei launched their first 4G ready phone, the Ascend P1 LTE. At CES 2013, Huawei launched the Ascend D2 and the Ascend Mate. At MWC 2013, the Ascend P2 was launched as the world's first LTE Cat4 smartphone. In June 2013, Huawei launched the Ascend P6 and in December 2013, Huawei introduced Honor as a subsidiary independent brand in China. At CES 2014, Huawei launched the Ascend Mate2 4G in 2014 and at MWC 2014, Huawei launched the MediaPad X1 tablet and Ascend G6 4G smartphone. Other launched in 2014 included the Ascend P7 in May 2014, the Ascend Mate7, the Ascend G7 and the Ascend P7 Sapphire Edition as China's first 4G smartphone with a sapphire screen.[113]
+
+In January 2015, Huawei discontinued the "Ascend" brand for its flagship phones, and launched the new P series with the Huawei P8.[114][115] Huawei also partnered with Google to build the Nexus 6P in 2015.[citation needed]
+
+In May 2018, Huawei stated that they will no longer allow unlocking the bootloader of their phones to allow installing third party system software or security updates after Huawei stops them. [116]
+
+The current models in the P and Mate lines, the Mate 40, Mate 40 Pro, Mate 40 5G, Mate 40 Pro 5G, P40, P40 Pro, Mate 30, Mate 30 Pro, Mate 30 5G, Mate 30 Pro 5G, P30, P30 Pro, Mate 20, Mate 20 Pro and Mate 20 X were released in 2018 and 2019.[117][118][119][120][121][122]
+Harmony OS
+Main article: Harmony OS
+On 9 August 2019, Huawei officially unveiled Harmony OS at its inaugural developers' conference in Dongguan. Huawei described Harmony as a free, microkernel-based distributed operating system for various types of hardware, with faster inter-process communication than QNX or Google's "Fuchsia" microkernel, and real-time resource allocation. The ARK compiler can be used to port Android APK packages to the OS. Huawei stated that developers would be able to "flexibly" deploy Harmony OS software across various device categories; the company focused primarily on IoT devices, including "smart displays", wearable devices, and in-car entertainment systems, and did not explicitly position Harmony OS as a mobile OS.[129][130]
+
+Huawei Ascend Mate (2013)
+Huawei Ascend Mate 2 (4G) (2014)
+Huawei Ascend Mate 7
+Huawei Mate S (2015)
+Huawei Mate SE (2017)
+Huawei Mate 8 (2015)
+Huawei Mate 9 (2016)
+Huawei Mate 9 Lite (also called Honor 6X)
+Huawei Mate 9 Pro (2016)
+Huawei Porsche Design Mate 9
+Huawei Mate 10 (2017)
+Huawei Mate 10 Pro (2017)
+Huawei Mate 10 Lite [also known as Huawei Nova 2i or Huawei Maimang 6 or Honor 9i (in India)] (2017)
+Huawei Porsche Design Mate 10 (2017)
+Huawei Porsche Design Mate RS (2018)
+Huawei Mate 20 (2018)[3]
+Huawei Mate 20 Pro (2018)
+Huawei Mate 20 Lite (2018)
+Huawei Mate 20 X (2018)
+Huawei Mate 20 Porsche RS (2018)
+Huawei Mate X (2019)
+Huawei Mate 30 (2019)
+Huawei Mate 30 Pro (2019)
+Huawei Mate 30 (5G) (2019)
+Huawei Mate 30 Pro (5G) (2019)
+Huawei Mate 30E Pro 5G (2020)
+Huawei Mate 30 RS (2019)
+Huawei MatePad Pro (2019)
+Huawei Mate Xs (2020)
+Huawei Mate 40 (2020)
+Huawei Mate 40 Pro (2020)
+Huawei Mate 40 Pro+ (2020)
+Huawei Mate 40 RS (2020)
+Huawei Mate 40E (2021)
+Huawei Mate 40E 4G (2021)
+Huawei Mate 40 Pro 4G (2021)
+Huawei Mate X2 (2021)
+Huawei Mate X2 4G (2021)
+Huawei Ascend P1 (2012, discontinued)
+Huawei Ascend P1 LTE (2012, discontinued)
+Huawei Ascend P1 S (2012, discontinued)
+Huawei Ascend P1 XL (2012, discontinued)
+Huawei Ascend P2 (2013, discontinued)
+Huawei Ascend P6 (2013, discontinued)
+Huawei Ascend P7 (2014)
+Huawei Ascend P7 Mini (2014, discontinued)
+Huawei Ascend P7 Sapphire Edition (2014)
+Huawei P8 (2015)
+Huawei P8 Max (2015)
+Huawei P8 Lite (2015)
+Huawei P8 Lite (Honor 8 Lite / P9 Lite 2017 / Nova Lite / GR3 2017) (2017)
+Huawei P9 (2016)
+Huawei P9 Lite (Huawei G9) (2016)
+Huawei P9 Lite Mini (2017) (Nova Lite 2017)
+Huawei P9 Plus (2016)
+Huawei P10 (2017)
+Huawei P10 Plus (2017)
+Huawei P10 Lite (Nova Youth) (2017)
+Huawei P Smart (2017)
+Huawei P Smart Pro (2018)
+Huawei P20 (2018)
+Huawei P20 Pro (2018)
+Huawei P20 Lite (also called Nova 3e)[4]
+Huawei P Smart + (Nova 3i)
+Huawei P Smart (2019)
+Huawei P Smart Z (2019)
+Huawei P30 (2019)
+Huawei P30 Pro (2019)
+Huawei P30 Lite (2019) (known as Nova 4e)
+Huawei P30 New Edition (2020)
+Huawei P30 Lite New Edition (2020)
+Huawei P Smart (2020)
+Huawei P Smart S (2020) (known as Enjoy 10s / Y8p)
+Huawei P40 (2020)
+Huawei P40 Lite (2020) (known as Nova 6 SE / Nova 7i)
+Huawei P40 Lite E (2020) (known as Y7p)
+Huawei P40 Pro (2020)
+Huawei P40 Pro+ (2020)
+Huawei P40 Lite 5G (2020) (known as Nova 7 SE)
+Huawei P40 4G (2021)
+Huawei P Smart 2021 (2020) (known as Y7a, models PPA-LX1 and PPA-LX2)[5]
+Huawei P50 (2021)
+Huawei P50 Pro (2021)[6]
+

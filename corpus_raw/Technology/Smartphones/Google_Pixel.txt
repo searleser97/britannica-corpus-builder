@@ -1,0 +1,90 @@
+Google Pixel is a brand of consumer electronic devices developed by Google that run either Chrome OS or the Android operating system. The Pixel brand was introduced in February 2013 with the first-generation Chromebook Pixel. The Pixel line includes laptops, tablets, and smartphones, as well as several accessories.
+
+Google announced the first generation Pixel smartphones, the Pixel and the Pixel XL, on October 4, 2016 during the #MadeByGoogle event.[1] Google emphasized the camera on the two phones, which ranked as the best smartphone camera on DxOMarkMobile with 90 points until HTC released the U11, which also scored 90 points.[2] This is largely due to software optimizations such as HDR+. The Pixel phones also include unlimited cloud storage for pictures on Google Photos[3] and, for devices purchased directly from Google, an unlockable bootloader.[4] Recently, a class action lawsuit[5] over faulty microphones in some devices enabled Pixel owners to claim up to $500 in compensation.
+Display: 5.0" AMOLED display with 1080×1920 pixel resolution (Pixel); 5.5" AMOLED display with 1440×2560 pixel resolution (Pixel XL)
+Processor: Qualcomm Snapdragon 821
+Storage: 32 GB or 128 GB
+RAM: 4 GB LPDDR4
+Cameras: 12.3 MP rear camera with f/2.0 lens and IR laser-assisted autofocus;[6] 1.55 μm pixel size.[7] 8 MP front camera with f/2.4 lens
+Battery: 2,770 mAh (Pixel); 3,450 mAh (Pixel XL); both are non-removable and have fast charging
+Materials: Aluminum unibody design with hybrid coating; IP53 water and dust resistance
+Colors: Very Silver, Quite Black or Really Blue (Limited Edition)
+Operating system: Android 7.1 Nougat; upgradable to Android 10[8][9]
+Google announced the Pixel 2 series, consisting of the Pixel 2 and Pixel 2 XL, on October 4, 2017.
+
+Display: 5.0" AMOLED display with 1080×1920 pixel resolution (Pixel 2); 6" P-OLED display with 1440×2880 pixel resolution (Pixel 2 XL); Both displays have Corning Gorilla Glass 5
+Processor: Qualcomm Snapdragon 835
+Storage: 64 GB or 128 GB
+RAM: 4 GB LPDDR4X
+Cameras: 12.2 MP rear camera with f/1.8 lens, IR laser-assisted autofocus, optical and electronic image stabilization; 8 MP front camera with f/2.4 lens
+Battery: 2,700 mAh (Pixel 2); 3,520 mAh (Pixel 2 XL); both are non-removable and have fast charging
+Materials: Aluminum unibody design with hybrid coating; IP67 water and dust resistance
+Colors: Just Black, Clearly White or Kinda Blue (Pixel 2); Just Black or Black & White (Pixel 2 XL)
+Operating system: Android 8.0 Oreo; upgradable to Android 11
+Google announced the Pixel 3 and Pixel 3 XL at an event on October 9, 2018, alongside several other products.
+
+Display: Pixel 3 5.5" OLED, 2160×1080 {18:9} pixel resolution; Pixel 3 XL 6.3" OLED, 2960×1440 {18.5:9} pixel resolution; both displays have Corning Gorilla Glass 5.
+Processor: Qualcomm Snapdragon 845
+Storage: 64 GB or 128 GB
+RAM: 4 GB LPDDR4X
+Cameras: 12.2 MP rear camera with f/1.8 lens, IR laser-assisted autofocus, optical and electronic image stabilization; 8 MP front camera with f/1.8 lens and 75° lens, second front camera with 8 MP, f/2.2, fixed focus and 97° lens; stereo audio added to video recording[10]
+Battery: 2915 mAh (Pixel 3); 3430 mAh (Pixel 3 XL); both are non-removable and have fast charging and wireless charging
+Materials: Aluminum frame, matte glass back, IP68 water and dust resistance
+Colors: Just Black, Clearly White, and Not Pink
+Operating system: Android 9 Pie; upgradable to Android 11
+On May 7, at I/O 2019, Google announced the Pixel 3a and Pixel 3a XL, budget alternatives to the original two Pixel 3 devices.[11]
+
+Display: Pixel 3a 5.6" OLED, 2220×1080 {18.5:9} pixel resolution; Pixel 3a XL 6" OLED, 2160x1080 {18:9} pixel resolution; both displays have Asahi Dragontrail Glass
+Processor: Qualcomm Snapdragon 670
+Storage: 64 GB
+RAM: 4 GB LPDDR4X
+Cameras: 12.2 MP rear camera with f/1.8 lens, IR laser-assisted autofocus, optical and electronic image stabilization; 8 MP front camera with f/2.0 lens and 84° lens
+Battery: 3000 mAh (Pixel 3a); 3700 mAh (Pixel 3a XL); both are non-removable and have fast charging, but no wireless charging
+Materials: Polycarbonate body
+Colors: Just Black, Clearly White, Purple-ish
+Operating system: Android 9 Pie, upgradable to Android 11
+Google announced the Pixel 4 and Pixel 4 XL at an event on October 15, 2019, alongside several other products.[12]
+
+Display: Pixel 4 5.7" OLED, 2280×1080 {19:9} pixel resolution; Pixel 4 XL 6.3" OLED, 3040×1440 {19:9} pixel resolution; both displays have Corning Gorilla Glass 5.
+Processor: Qualcomm Snapdragon 855
+Storage: 64 GB or 128 GB
+RAM: 6 GB LPDDR4X
+Cameras: 12.2 MP sensor with f/1.8 lens & 16 MP telephoto sensor with f/2.4 lens, IR laser-assisted autofocus, optical and electronic image stabilization; 8 MP front camera with f/2.0 lens and 90° lens
+Battery: 2800 mAh (Pixel 4); 3700 mAh (Pixel 4 XL); both are non-removable and have fast charging and wireless charging
+Materials: Aluminum frame, matte or glossy glass back, IP68 water and dust resistance
+Colors: Just Black, Clearly White, and Oh So Orange
+Operating system: Android 10, upgradable to Android 11
+In 2019, Google offered a bug bounty of up to $1.5 million for the Titan M security chip built into Pixel 3, Pixel 3a and Pixel 4.[13]
+Google announced the Pixel 4a on August 3, 2020 and the Pixel 4a (5G) on September 30, 2020, as budget alternatives to the original two Pixel 4 devices.
+
+Display: 5.8" OLED (4a) 6.2" OLED (4a 5G), 2340×1080 {19.5:9} pixel resolution; the display uses Corning Gorilla Glass 3. They both have a hole punch for the front camera.
+Processor: Qualcomm Snapdragon 730G (4a); Qualcomm Snapdragon 765G (4a 5G)
+Storage: 128 GB
+RAM: 6 GB LPDDR4X
+Camera: 12.2 MP dual-pixel sensor with f/1.7 lens, autofocus with dual-pixel phase detection, optical and electrical image stabilization. In addition, the 4a 5G has a 16 MP ultrawide sensor with f/2.2 lens. Both have an 8 MP front camera with f/2.0 lens.
+Battery: 3140 mAh (4a); Typical - 3885 mAh, Minimum - 3800 mAh (4a 5G); both are non-removable and feature all day battery as well as fast charging
+Materials: Polycarbonate body
+Colors: Just Black or Barely Blue (Limited Edition) (Pixel 4a); Just Black or Clearly White (Pixel 4a 5G)
+Operating System: Android 10, upgradable to Android 11 (4a); Android 11 (4a 5G)[14][15]
+Google announced the Pixel 5 on September 30, 2020.
+
+Display: 6.0" OLED, 2340×1080 {19.5:9} pixel resolution; the display uses Corning Gorilla Glass 6.
+Processor: Qualcomm Snapdragon 765G
+Storage: 128 GB
+RAM: 8 GB LPDDR4X
+Camera: 12.2 MP sensor with f/1.7 lens & 16 MP ultrawide sensor with f/2.2 lens, autofocus with dual-pixel phase detection, optical and electrical image stabilization; 8 MP front camera with f/2.0 lens.
+Battery: 4080 mAh; it is non-removable and features fast charging and wireless charging, all day battery, and Battery Share.
+Materials: Brushed aluminum body, IP68 water and dust resistance
+Colors: Just Black and Sorta Sage
+Operating System: Android 11[16]
+Google announced the Pixel 5a on August 17, 2021.
+
+Display: 6.34" OLED, 2400×1080 {20:9} pixel resolution; the display uses Corning Gorilla Glass 3. It has a hole punch for the front camera.
+Processor: Qualcomm Snapdragon 765G
+Storage: 128 GB
+RAM: 6 GB LPDDR4X
+Camera: 12.2 MP sensor with f/1.7 lens & 16 MP ultrawide sensor with f/2.2 lens, autofocus with dual-pixel phase detection, optical and electrical image stabilization; 8 MP front camera with f/2.0 lens.
+Battery: 4680 mAh; non-removable and features all day battery as well as fast charging
+Materials: Brushed aluminum body, IP67 water and dust resistance
+Colors: Mostly Black
+Operating System: Android 11[17]

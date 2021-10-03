@@ -1,10 +1,11 @@
-import { listOfFilesInDir } from "./Util";
+import { listOfFilesInDir, listOfUniqueFilesInDir } from "./Util";
 import {
   extractSents,
   getAllParagraphs,
-  getFirstParagraph,
+  isProbablyName,
   normalizeString,
   preprocessText,
+  removeDiacritics,
 } from "./Util_NLP";
 import * as Path from "path";
 import * as fs from "fs";
@@ -14,35 +15,64 @@ const labeled_sents_preprocessed_path = "labeled_sents_preprocessed.txt";
 
 export async function buildFastTextFormattedFileRaw(
   rootDir: string,
-  whichLabels: number[],
+  whichLabels: number[]
 ): Promise<void> {
-  const files = listOfFilesInDir(rootDir, true);
+  const mymap = new Map();
+  const files = listOfUniqueFilesInDir(
+    rootDir,
+    true,
+    new Set([
+      "Businesspeople_Entrepreneurs",
+      "Nobility",
+      "Classical_Music",
+      "Dance",
+      "Entertainment_Awards",
+      "Music_Theory",
+      "Theater",
+      "Geography_Travel",
+      "Sculpture"
+    ])
+  );
   let sentencesCnt = 0;
   let formattedOutput = "";
   for (const file of files) {
     const paragraphs = getAllParagraphs(file);
-    const sentences: string[] = []
+    const sentences: string[] = [];
     for (const par of paragraphs) {
       sentences.push(...extractSents(par));
     }
     const labels = file.split(Path.sep); // ignore position [0]
-    labels[labels.length - 1] = Path.basename(
-      labels[labels.length - 1],
-      ".txt"
-    );
+    let articleTitle = Path.basename(labels[labels.length - 1], ".txt");
+    labels[labels.length - 1] = articleTitle;
     for (let i = 1; i < labels.length; i++) {
       labels[i] = normalizeString(labels[i]).toLowerCase();
     }
     let formattedLabels = "";
     for (let i = 0; i < whichLabels.length; i++) {
       if (whichLabels[i] >= labels.length || whichLabels[i] < 1) {
-        throw new Error("Selected labels are out of range (must be at most the dept of your file tree)");
+        throw new Error(
+          "Selected labels are out of range (must be at most the dept of your file tree)"
+        );
       }
-      formattedLabels += `__label__${labels[whichLabels[i]]}`;
+      formattedLabels += `__label__${labels[whichLabels[i]]} `;
     }
     sentencesCnt += sentences.length;
-    for (const sent of sentences) {
-      formattedOutput += formattedLabels + " " + sent + "\n";
+
+    articleTitle = articleTitle.replace(/_+/giu, " ");
+    const isName = isProbablyName(articleTitle);
+    const articleNameSplitted = articleTitle.split(/\s+/giu);
+    const lastName = articleNameSplitted[articleNameSplitted.length - 1];
+    const maybeFirstName = articleNameSplitted[articleNameSplitted.length - 2];
+    const lastNameReplaceRegex = new RegExp(
+      `(?<!(\\w|${maybeFirstName}\\s+))${lastName}(?!\\w)`,
+      "gui"
+    );
+    for (let sent of sentences) {
+      if (isName) {
+        sent = removeDiacritics(sent);
+        sent = sent.replace(lastNameReplaceRegex, articleTitle);
+      }
+      formattedOutput += formattedLabels + sent + "\n";
     }
   }
   console.log("number of sentences:", sentencesCnt);
@@ -73,7 +103,7 @@ export async function buildFastTextFormattedFilePreprocessed(): Promise<void> {
   let processedFile = "";
   let cnt = 0;
   for (const line of lines) {
-    const processedLine = preprocessText(line, /(__label__[a-z_0-9]+)+\s/gui);
+    const processedLine = preprocessText(line, /(__label__[a-z_0-9]+\s)+/giu);
     if (processedLine.length > 0) {
       processedFile += processedLine + "\n";
     }

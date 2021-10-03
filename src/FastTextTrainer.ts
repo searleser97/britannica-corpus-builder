@@ -3,9 +3,9 @@ import FastText from "fasttext.js";
 import { preprocessText } from "./Util_NLP";
 import train_test_split from "train-test-split";
 
-export async function splitIntoTrainAndText(datasetPath: string): Promise<void> {
+export async function splitIntoTrainAndText(datasetPath: string, trainProportion: number): Promise<void> {
   const dataset = fs.readFileSync(datasetPath).toString().trim().split("\n");
-  const [train, test] = train_test_split(dataset, 0.8, 1322);
+  const [train, test] = train_test_split(dataset, trainProportion, 1322);
   datasetPath = datasetPath.replace(/(\.[a-z0-9]+)+/gui, "");
   fs.writeFileSync(`${datasetPath}.train`, train.join("\n"));
   fs.writeFileSync(`${datasetPath}.test`, test.join("\n"));

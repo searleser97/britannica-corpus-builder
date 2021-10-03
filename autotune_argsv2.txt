@@ -1,0 +1,13 @@
+dim 169
+ws 5
+epoch 37
+minCount 1
+neg 5
+wordNgrams 2
+loss softmax
+model sup
+bucket 4110692
+minn 0
+maxn 0
+lrUpdateRate 100
+t 0.0001

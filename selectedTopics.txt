@@ -1,0 +1,38 @@
+Comic_Strip_Superhero
+Food
+Movies
+Musical_Instruments
+Television_Radio
+Travel <-- missing
+Videogames <-- missing
+Health_Nutrition_Fitness
+Medicine
+Psychology_Mental_Health
+Conditions_Diseases
+Festivals_Holidays
+LGBTQ_Issues
+Country_Music
+Folk_Music
+Jazz_Music
+Pop_Music
+Rap_Hip_Hop_Music
+Rock_Music
+Soul_Rhythm_Blues_Music
+Religion <-- missing
+Baseball
+Basketball
+Football
+Hockey
+Soccer
+Sportswear
+Cars_Vehicles
+Computers
+Smartphones
+Web_Communication
+Fashion_Design
+Painting
+Banking_Business
+Economics_Economic_Systems
+Politics_Political_Systems
+Accidents_Disasters
+Wars_Battles_Conflicts
