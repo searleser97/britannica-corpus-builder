@@ -3,7 +3,7 @@ Food
 Movies
 Musical_Instruments
 Television_Radio
-Travel <-- missing
+Countries_And_Cities
 Videogames <-- missing
 Health_Nutrition_Fitness
 Medicine
@@ -18,7 +18,6 @@ Pop_Music
 Rap_Hip_Hop_Music
 Rock_Music
 Soul_Rhythm_Blues_Music
-Religion <-- missing
 Baseball
 Basketball
 Football
@@ -34,5 +33,35 @@ Painting
 Banking_Business
 Economics_Economic_Systems
 Politics_Political_Systems
+Religion
 Accidents_Disasters
 Wars_Battles_Conflicts
+Peoples_of_Africa
+Peoples_of_Asia
+Peoples_of_Australia_and_Oceania
+Peoples_of_Europe
+Peoples_of_the_Americas
+Peoples_of_the_Middle_East
+Astronomy
+Biology
+Birds_Reptiles_Vertebrates
+Bugs_Mollusks_Invertebrates
+Chemistry
+Mammals
+Mathematics
+Physics
+Plants
+------General Topics------
+Entertainment_Pop_Culture
+Geography_Travel
+Health_Medicine
+Human_Geography
+Lifestyles_Social_Issues
+Music_Contemporary_Genres
+Philosophy_Religion
+Politics_Law_Government
+Science
+Sports_Recreation
+Technology
+Visual_Arts
+World_History

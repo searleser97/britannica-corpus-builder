@@ -26,7 +26,8 @@ function listOfFilesInDirRecursive(
 export function listOfFilesInDir(
   dirPath: string,
   recursive: boolean,
-  excluded: Set<string>
+  excluded: Set<string>,
+  included: Set<string>
 ): string[] {
   const files = { filesList: [] };
   if (recursive) {
@@ -48,14 +49,15 @@ export function listOfFilesInDir(
 export function listOfUniqueFilesInDir(
   dirPath: string,
   recursive: boolean,
-  excluded: Set<string>
+  excluded: Set<string>,
+  included: Set<string>
 ): string[] {
   const topics = fs.readFileSync("topics.txt").toString().trim().split("\n");
   const priorityForTopic = new Map<string, number>();
   for (let i = 0; i < topics.length; i++) {
     priorityForTopic.set(topics[i], i);
   }
-  const files = listOfFilesInDir(dirPath, recursive, excluded);
+  const files = listOfFilesInDir(dirPath, recursive, excluded, included);
   const sortedFiles = files.sort((a: string, b: string) => {
     const splittedA = a.split(Path.sep);
     const splittedB = b.split(Path.sep);
