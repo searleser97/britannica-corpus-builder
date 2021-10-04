@@ -1,5 +1,6 @@
 Comic_Strip_Superhero
 Food
+Pets
 Movies
 Musical_Instruments
 Television_Radio
