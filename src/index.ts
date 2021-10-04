@@ -11,8 +11,21 @@ import {
   testFastText,
   trainFastText,
 } from "./FastTextTrainer";
+import { extractSents, preprocessText } from "./Util_NLP";
 
 async function main() {
+  console.log(
+    extractSents(
+      'Is there a place to leave backpacks at UN headquarters before its tour?","<new-york-city><tours><luggage-storage><landmarks>"'
+    )
+  );
+  console.log(
+    preprocessText(
+      '__label__travel ,"<new-york-city><tours><luggage-storage><landmarks>"',
+      /(__label__[a-z_0-9]+\s)+/giu
+    )
+  );
+  return;
   const args = process.argv;
   const command = args[2];
   if (command === "pull_corpus") {
@@ -22,7 +35,7 @@ async function main() {
     const labels = (args[3] ?? "2").trim();
     await buildFastTextFormattedFileRaw(
       "corpus_raw",
-      labels.split(/[\s,]/gui).map((lbl) => parseInt(lbl))
+      labels.split(/[\s,]/giu).map((lbl) => parseInt(lbl))
     );
   } else if (command === "gen_corpus") {
     await buildFastTextFormattedFilePreprocessed();

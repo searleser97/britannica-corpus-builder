@@ -1,0 +1,62 @@
+ASUSTek Computer Inc. (/ˈeɪsuːs/;[3] Chinese: 華碩電腦股份有限公司; pinyin: Huáshuò Diànnǎo Gǔfèn Yǒuxiàn Gōngsī; stylised as ASUSTeK or ASUS) is a Taiwanese[4] multinational computer and phone hardware and electronics company
+Asus' products include 2-in-1s, laptops, tablet computers, desktop computers, smartphones, personal digital assistants (PDAs), servers, computer monitors, motherboards, graphics cards, sound cards, DVD disc drives, computer networking devices, computer cases, computer components and computer cooling systems.
+One of Asus main lineup is the Vivo lineup consisting of laptops (VivoBooks), All-in-Ones (Vivo AiO), desktops (VivoPC), Stick PCs (VivoStick), Mini PCs (VivoMini), smartwatches (VivoWatch), computer mouse (VivoMouse) and tablets (VivoTab).[33]
+ZenBook
+VivoBook
+ASUSPRO
+ExpertBook
+ProArt StudioBook
+TUF Gaming
+Republic Of Gamers (ROG Gaming)
+Chromebook
+EeeBook
+G Series
+N Series
+K Series
+X Series
+E Series
+Q Series
+U Series
+B Series
+V Series
+F Series
+A Series
+T Series
+All-in-One PCs
+Zen AiO
+Vivo AiO
+Portable AiO
+VivoPC
+ROG series
+Asus entered the box-PC market with the Vivo PC line in November 2013.[60] ASUS VivoPCs come without a pre-installed Windows operating system.
+
+On 23 October 2013 ASUS launched two models of VivoPCs in India.[61] VivoPC was initially announced with Intel Celeron processor equipped VM40B model. But in India, the company released VivoPC along with a new model called VC60 which is equipped by Intel Core series processors.[62]
+In 2013, Asus released the MB168B, a USB 3.0-powered, portable external monitor. The base model shipped with a resolution of 1366 × 768, while the MB168B+ had a resolution of 1920 × 1080.[63] At the time of its release, the MB168B+ was the only 1080p portable monitor. According to Asus, it is the "world's slimmest and lightest USB monitor".[63]
+
+Desktop monitors
+ROG Swift PG279Q[64]
+ROG Swift PG348Q
+ROG Swift PG35VQ[65]
+PB27UQ
+MX34VQ
+VZ279Q
+
+ZenBook is a family of ultrabooks – low-bulk laptop computers – produced by Asus. The first ZenBooks were released in October 2011, and the original range of products was amended and expanded during 2012. Models range from 12-inch laptops featuring power efficient components but lacking connectivity and having only integrated graphics processors, to 15-inch laptops with discrete graphics processing units and optical disc drives. Most (though not all) ZenBooks use Intel Core ultra-low-voltage processors and Nvidia GPUs when integrated graphics are not used. Asus introduced new models with touch screens to take advantage of Windows 8 after its release in late 2012. Most models drew comparisons to the Macbook Air. The ZenBook mainly competes against computers such as Acer's Aspire, Dell's Inspiron and XPS, HP's Pavilion, HP Stream and Envy, Lenovo's IdeaPad, Samsung's Sens and Toshiba's Satellite.
+
+Asus designed the ZenBooks with brushed aluminium chassis and high rigidity, rather than plastic, the usual laptop construction material. A pattern of concentric circles on the lids is said to represent ripples in water and represent the "zen philosophy" that designers wanted to portray when creating the laptops. ZenBooks have been generally well received due to their chassis design and appearance as well as the high quality screens used in later models. However, the touchpad software was found to be erratic, particularly on the early models and some of the models received criticism for their high prices. Some models (such as the UX32) suffer from lockdown when the lithium polymer battery cell gets drained or discharged below its recommended threshold, for example if the device is left on and unattended. The result is that the charger will fail to recharge the battery even when plugged in, leaving the machine in a near-complete unresponsive off-state. The machine can often be revived by pressing the power-on key for 10 seconds, whereupon it will start recharging.[1]
+In 2009 Asus released the UX50V, a 15-inch laptop that was focused on energy efficiency and had a thin profile.[2] The laptop was rated poorly by reviewers as it under-performed and had mediocre battery life, despite the installed energy efficient hardware.[3] Although not branded as one, it bore the same "UX" product code as many of the later ZenBooks and was an early foray into the ultraportable market.
+
+The ZenBook name was proposed by Asus chairman Jonney Shih to reflect the "zen philosophy" applied to the design.[4] The chief designer, Loewy Chen, had wanted to incorporate design elements from luxury watches into his products for a long time. ZenBooks were the first opportunity to put this into practice,[4] the crossover being achieved, he said, by "the unfolding of the laptop from the side recalling the elegance of minute and hour hand movements".[5] The reference to watches is also reflected in the marketing of ZenBooks; Asus published design sketches overlaying an open ZenBook on a watch face, and video advertisements feature similar imagery.[6][7] The concentric circles on the lid of Zenbooks were intended to look like ripples in water and to reflect "philosophical ideas such as the infinite nature of Zen thinking and self-improvement".[4][5]
+
+The bodies of the ZenBooks are made of aluminium, chosen for its light weight, strength, vibration dampening, appearance and acoustic properties.[4] Both the bodies and lids are CNC milled and brushed for appearance.[4] Reviewers have noted the resulting superior rigidity and complimented the appearance of the ZenBook range.[8][9][10]
+
+To preserve space, some Zenbooks use two PCBs connected by a communications ribbon so it can have ports on both sides of the device, with a heatsink and fan centred between them.[11][12]
+
+In 2017, Asus debuted ScreenPad with the ZenBook Pro 15 UX580. The ScreenPad replaces the regular touchpad with a colour capactive touchscreen display. This technology was then in 2019 included in the ZenBook 13 (UX334), ZenBook 14 (UX434) and ZenBook 15 (UX534) and offered optionally on the lower end lineup of VivoBook S laptops.[13][14]
+
+In 2019, as a successor the 2018's ZenBook Pro, the ZenBook Duo and ZenBook Pro Duo feature two screens – one at the regular position and the other above keyboard. This second display resulted into the move of the keyboard nearer to the chin and the touchpad to where a numberpad would be similarly to Asus' gaming ROG Zephyrus laptop.[15]
+Some Asus VivoBook models are branded under different series depending on regions and/or time. For example, the VivoBook E12 E203 used to be marketed under the VivoBook E Series but has since been marketed without 'E12' and under the Asus Laptop series.[citation needed]
+The Asus VivoBook 4K uses a 15.6" 16:9 IPS 4K (3840 x 2160) display with a color gamut of 72% NTSC, 100% sRGB, and 74% Adobe RGB. The laptop supports up to Intel Core i7 processor, up to 12GB of RAM, up to a 2TB HDD and up to a Nvidia 940M video card. The I/O consists of a combo audio jack, a VGA port, 2x USB 3.0 port(s), 1x USB 2.0 port(s), a RJ45 LAN Jack and a HDMI.[1]
+The Asus Vivo lineup consists of laptops (VivoBooks), All-in-Ones (Vivo AiO), desktops (VivoPC), Stick PCs (VivoStick), Mini PCs (VivoMini), smartwatches (VivoWatch), computer mouse (VivoMouse) and tablets (VivoTab). Like with many other Windows computers, various different configurations of specification exist of each models.
+The Asus VivoBook E Series is the successor to the EeeBook and Eee PC lineup of computers. Some of the VivoBook E Series laptops are simply rebadged EeeBook laptops such as the E402 and E202. The VivoBook E Series consists of the E200 (E200HA), E201 (E201NA), E202 (E202SA), E12 E203 (E203NAH and E203NA), E402 (E402SA, E402NA, E402BA and E402BP), E403 (E403SA and E403NA) and E502 (E502NA).
+The VivoBook S Series was revived in 2017 with the VivoBook S15 (S510) at Computex 2017 in May, 2017.[44] At Computer 2018 in June 2018, the VivoBook S Series was updated which included the S15 (S530), S14 (S430) and S13 (S330).[45] In almost all regions, the 2018 models were sold alongside updated 2017 models.[citation needed]

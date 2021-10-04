@@ -3,12 +3,13 @@ Food
 Movies
 Musical_Instruments
 Television_Radio
-Countries_And_Cities
-Videogames <-- missing
+Travel
+Gaming
 Health_Nutrition_Fitness
 Medicine
 Psychology_Mental_Health
 Conditions_Diseases
+Interpersonal
 Festivals_Holidays
 LGBTQ_Issues
 Country_Music
@@ -25,15 +26,15 @@ Hockey
 Soccer
 Sportswear
 Cars_Vehicles
-Computers
+Laptops_And_PCs
 Smartphones
 Web_Communication
 Fashion_Design
+Gaming
 Painting
 Banking_Business
 Economics_Economic_Systems
-Politics_Political_Systems
-Religion
+Politics
 Accidents_Disasters
 Wars_Battles_Conflicts
 Peoples_of_Africa
@@ -45,9 +46,7 @@ Peoples_of_the_Middle_East
 Astronomy
 Biology
 Birds_Reptiles_Vertebrates
-Bugs_Mollusks_Invertebrates
 Chemistry
-Mammals
 Mathematics
 Physics
 Plants

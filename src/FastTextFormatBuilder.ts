@@ -1,4 +1,4 @@
-import { listOfFilesInDir, listOfUniqueFilesInDir } from "./Util";
+import { listOfUniqueFilesInDir } from "./Util";
 import {
   extractSents,
   getAllParagraphs,
@@ -18,7 +18,9 @@ export async function buildFastTextFormattedFileRaw(
   whichLabels: number[]
 ): Promise<void> {
   const mymap = new Map();
-  const selectedTopics = new Set(fs.readFileSync("selectedTopics.txt").toString().trim().split("\n"));
+  const selectedTopics = new Set(
+    fs.readFileSync("selectedTopics.txt").toString().trim().split("\n")
+  );
   const files = listOfUniqueFilesInDir(
     rootDir,
     true,

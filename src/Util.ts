@@ -8,7 +8,8 @@ export function sleep(ms: number): Promise<void> {
 function listOfFilesInDirRecursive(
   dirPath: string,
   files: { filesList: string[] },
-  excluded: Set<string>
+  excluded: Set<string>,
+  included: Set<string>
 ): void {
   const filesAndDirs = fs.readdirSync(dirPath);
   for (const fileOrDir of filesAndDirs) {
@@ -18,7 +19,14 @@ function listOfFilesInDirRecursive(
     if (fs.statSync(Path.join(dirPath, fileOrDir)).isFile()) {
       files.filesList.push(Path.join(dirPath, fileOrDir));
     } else {
-      listOfFilesInDirRecursive(Path.join(dirPath, fileOrDir), files, excluded);
+      if (included.has(fileOrDir)) {
+        listOfFilesInDirRecursive(
+          Path.join(dirPath, fileOrDir),
+          files,
+          excluded,
+          included
+        );
+      }
     }
   }
 }
@@ -31,7 +39,7 @@ export function listOfFilesInDir(
 ): string[] {
   const files = { filesList: [] };
   if (recursive) {
-    listOfFilesInDirRecursive(dirPath, files, excluded);
+    listOfFilesInDirRecursive(dirPath, files, excluded, included);
   } else {
     const filesAndDirs = fs.readdirSync(dirPath);
     for (const fileOrDir of filesAndDirs) {
@@ -63,7 +71,10 @@ export function listOfUniqueFilesInDir(
     const splittedB = b.split(Path.sep);
     const topicA = splittedA[splittedA.length - 2];
     const topicB = splittedB[splittedB.length - 2];
-    if ((priorityForTopic.get(topicA) ?? 100) < (priorityForTopic.get(topicB) ?? 100)) {
+    if (
+      (priorityForTopic.get(topicA) ?? 100) <
+      (priorityForTopic.get(topicB) ?? 100)
+    ) {
       return -1;
     } else {
       return 1;
