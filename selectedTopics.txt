@@ -7,6 +7,7 @@ Television_Radio
 Travel
 Gaming
 Health_Nutrition_Fitness
+Personal_Care <--- missing
 Medicine
 Psychology_Mental_Health
 Conditions_Diseases
@@ -30,7 +31,7 @@ Cars_Vehicles
 Laptops_And_PCs
 Smartphones
 Web_Communication
-Fashion_Design
+Fashion_Design <---- missing
 Gaming
 Painting
 Banking_Business

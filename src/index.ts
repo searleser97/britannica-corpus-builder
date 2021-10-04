@@ -14,18 +14,6 @@ import {
 import { extractSents, preprocessText } from "./Util_NLP";
 
 async function main() {
-  console.log(
-    extractSents(
-      'Is there a place to leave backpacks at UN headquarters before its tour?","<new-york-city><tours><luggage-storage><landmarks>"'
-    )
-  );
-  console.log(
-    preprocessText(
-      '__label__travel ,"<new-york-city><tours><luggage-storage><landmarks>"',
-      /(__label__[a-z_0-9]+\s)+/giu
-    )
-  );
-  return;
   const args = process.argv;
   const command = args[2];
   if (command === "pull_corpus") {
