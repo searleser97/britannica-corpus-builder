@@ -7,7 +7,6 @@ Television_Radio
 Travel
 Gaming
 Health_Nutrition_Fitness
-Personal_Care <--- missing
 Medicine
 Psychology_Mental_Health
 Conditions_Diseases
@@ -31,7 +30,7 @@ Cars_Vehicles
 Laptops_And_PCs
 Smartphones
 Web_Communication
-Fashion_Design <---- missing
+Fashion_Design
 Gaming
 Painting
 Banking_Business
@@ -49,8 +48,8 @@ Astronomy
 Biology
 Birds_Reptiles_Vertebrates
 Chemistry
-Mathematics
 Physics
+Mathematics
 Plants
 ------General Topics------
 Entertainment_Pop_Culture
