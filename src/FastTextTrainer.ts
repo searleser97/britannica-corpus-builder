@@ -1,4 +1,5 @@
 import * as fs from "fs";
+import * as Path from "path";
 import FastText from "fasttext.js";
 import { preprocessText } from "./Util_NLP";
 import train_test_split from "train-test-split";
@@ -43,11 +44,20 @@ export async function testFastText(testDS: string, modelPath: string): Promise<v
   console.log("done testing");
 }
 
-export async function predictFastText(text: string, modelPath: string): Promise<void> {
+export async function predictFastText(filePath: string, modelPath: string): Promise<void> {
+  const fasttextBin = Path.join(__dirname, "FastTextBin/fasttext");
   const fasttext = new FastText({
+    bin: fasttextBin,
     loadModel: modelPath,
+    predict: { precisionRecall: 3 }
   });
   await fasttext.load();
-  const result = await fasttext.predict(preprocessText(text));
-  console.log(result);
+  const lines = fs.readFileSync(filePath).toString().trim().split("\n");
+  for (const line of lines) {
+    const processedText = preprocessText(line)
+    const result = await fasttext.predict(processedText);
+    console.log(processedText);
+    console.log(JSON.stringify(result));
+  }
+  await fasttext.unload();
 }
