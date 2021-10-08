@@ -43,9 +43,9 @@ async function main() {
     const model = args[4];
     await testFastText(testDS, model);
   } else if (command === "predict") {
-    const text = args[3];
+    const filePath = args[3];
     const model = args[4];
-    await predictFastText(text, model);
+    await predictFastText(filePath, model);
   } else {
     let cb = new CorpusBuilder();
     await cb.quickTest();
