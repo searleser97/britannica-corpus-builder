@@ -32,9 +32,19 @@ export async function buildFastTextFormattedFileRaw(
   for (const file of files) {
     const paragraphs = getAllParagraphs(file);
     const sentences: string[] = [];
-    for (const par of paragraphs) {
-      sentences.push(...extractSents(par));
+    if (paragraphs.length === 0) {
+      continue;
     }
+    if (/^".*"\s*,\s*"(<[^>]+>)+"$/iu) { // if stackexchange formatted file
+      for (const par of paragraphs) {
+        sentences.push(par);
+      }
+    } else {
+      for (const par of paragraphs) {
+        sentences.push(...extractSents(par));
+      }
+    }
+
     const labels = file.split(Path.sep); // ignore position [0]
     let articleTitle = Path.basename(labels[labels.length - 1], ".txt");
     labels[labels.length - 1] = articleTitle;
