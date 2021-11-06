@@ -1,4 +1,3 @@
-title,tags
 "How quickly do crew suffocate without oxygen?","<ftl-faster-than-light>"
 "Sapphire - Is there anything else?","<the-elder-scrolls-v-skyrim>"
 "How do I send my pet off to sell items?","<torchlight-2>"
