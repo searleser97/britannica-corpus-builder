@@ -35,7 +35,7 @@ export async function buildFastTextFormattedFileRaw(
     if (paragraphs.length === 0) {
       continue;
     }
-    if (/^".*"\s*,\s*"(<[^>]+>)+"$/iu) { // if stackexchange formatted file
+    if (/".*"\s*,\s*"(<[^>]+>)+"/iu.test(paragraphs[0])) { // if stackexchange formatted file
       for (const par of paragraphs) {
         sentences.push(par);
       }
