@@ -1,4 +1,5 @@
 Comic_Strip_Superhero
+Coffee
 Food
 Pets
 Movies
@@ -29,11 +30,10 @@ Sportswear
 Cars_Vehicles
 Laptops_And_PCs
 Smartphones
-Web_Communication
+Computer_Programming
 Fashion_Design
 Gaming
 Painting
-Banking_Business
 Economics_Economic_Systems
 Politics
 Accidents_Disasters

@@ -1,4 +1,3 @@
-title,tags
 "Generic RPC stub generator","<remote-access><c>"
 "Program that fetches all music album images and saves them as ID3 tag","<gratis><images><music><id3>"
 "Python Geolocation Software to Filter Cities By Population Within a Radius?","<python>"
