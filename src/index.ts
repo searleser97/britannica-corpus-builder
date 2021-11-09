@@ -7,7 +7,7 @@ import {
 } from "./FastTextFormatBuilder";
 import {
   predictFastText,
-  splitIntoTrainAndText,
+  splitIntoTrainAndTest,
   testFastText,
   trainFastText,
 } from "./FastTextTrainer";
@@ -34,7 +34,7 @@ async function main() {
       console.log("missing datasource file with corpus");
       return;
     }
-    splitIntoTrainAndText(DS, trainProportion);
+    splitIntoTrainAndTest(DS, trainProportion);
   } else if (command === "train") {
     const trainDS = args[3];
     await trainFastText(trainDS);

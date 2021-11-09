@@ -2,11 +2,12 @@ import * as fs from "fs";
 import * as Path from "path";
 import FastText from "fasttext.js";
 import { preprocessText } from "./Util_NLP";
-import train_test_split from "train-test-split";
+import { split_into_train_and_test } from "./Util";
 
-export async function splitIntoTrainAndText(datasetPath: string, trainProportion: number): Promise<void> {
+export async function splitIntoTrainAndTest(datasetPath: string, trainProportion: number): Promise<void> {
   const dataset = fs.readFileSync(datasetPath).toString().trim().split("\n");
-  const [train, test] = train_test_split(dataset, trainProportion, 1322);
+  const [train, test] = split_into_train_and_test(datasetPath, trainProportion);
+  // const [train, test] = train_test_split(dataset, trainProportion, 1322);
   datasetPath = datasetPath.replace(/(\.[a-z0-9]+)+/gui, "");
   fs.writeFileSync(`${datasetPath}.train`, train.join("\n"));
   fs.writeFileSync(`${datasetPath}.test`, test.join("\n"));
